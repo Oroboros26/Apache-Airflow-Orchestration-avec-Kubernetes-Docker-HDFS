@@ -1,0 +1,14 @@
+[2026-04-08T12:37:23.339+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: energie_meteo_dag_dynamic.extraire_meteo_region manual__2026-04-08T12:35:57+00:00 map_index=1 [queued]>
+[2026-04-08T12:37:23.375+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: energie_meteo_dag_dynamic.extraire_meteo_region manual__2026-04-08T12:35:57+00:00 map_index=1 [queued]>
+[2026-04-08T12:37:23.376+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 3
+[2026-04-08T12:37:23.473+0000] {taskinstance.py:2192} INFO - Executing <Mapped(_PythonDecoratedOperator): extraire_meteo_region> on 2026-04-08 12:35:57+00:00
+[2026-04-08T12:37:23.541+0000] {standard_task_runner.py:60} INFO - Started process 589 to run task
+[2026-04-08T12:37:23.580+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'energie_meteo_dag_dynamic', 'extraire_meteo_region', 'manual__2026-04-08T12:35:57+00:00', '--job-id', '65', '--raw', '--subdir', 'DAGS_FOLDER/energie_meteo_dag_dynamic.py', '--cfg-path', '/tmp/tmpot1xj_4f', '--map-index', '1']
+[2026-04-08T12:37:23.603+0000] {standard_task_runner.py:88} INFO - Job 65: Subtask extraire_meteo_region
+[2026-04-08T12:37:24.060+0000] {task_command.py:423} INFO - Running <TaskInstance: energie_meteo_dag_dynamic.extraire_meteo_region manual__2026-04-08T12:35:57+00:00 map_index=1 [running]> on host d38f1858f6b8
+[2026-04-08T12:37:24.744+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='energie_meteo_dag_dynamic' AIRFLOW_CTX_TASK_ID='extraire_meteo_region' AIRFLOW_CTX_EXECUTION_DATE='2026-04-08T12:35:57+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-08T12:35:57+00:00'
+[2026-04-08T12:37:25.017+0000] {energie_meteo_dag_dynamic.py:99} INFO - Meteo Occitanie: {'region': 'Occitanie', 'ensoleillement_h': 12.13, 'vent_kmh': 13.5}
+[2026-04-08T12:37:25.023+0000] {python.py:201} INFO - Done. Returned value was: {'region': 'Occitanie', 'ensoleillement_h': 12.13, 'vent_kmh': 13.5}
+[2026-04-08T12:37:25.155+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=energie_meteo_dag_dynamic, task_id=extraire_meteo_region, map_index=1, execution_date=20260408T123557, start_date=20260408T123723, end_date=20260408T123725
+[2026-04-08T12:37:25.239+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-04-08T12:37:25.400+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check
