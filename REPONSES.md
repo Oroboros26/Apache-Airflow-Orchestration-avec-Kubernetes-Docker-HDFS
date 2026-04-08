@@ -126,6 +126,10 @@ Exemple concret de corruption:
 - Emplacement image: A REMPLIR
 - Commentaire: A REMPLIR
 
+<img width="1909" height="907" alt="image" src="https://github.com/user-attachments/assets/8b24ad51-88d0-4e4a-9c9c-55510846e157" />
+
+
+
 ### Capture 2 - Vue Graph (5 taches)
 
 - Cible: graphe t1 >> [t2, t3] >> t4 >> t5
