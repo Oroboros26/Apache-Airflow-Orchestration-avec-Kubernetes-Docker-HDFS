@@ -97,6 +97,9 @@ Pourquoi c'est critique ici:
 - Eviter les effets de bord irreversibles non proteges.
 - En persistance base/table: utiliser upsert/merge plutot qu'insert brut.
 
+<img width="1896" height="901" alt="image" src="https://github.com/user-attachments/assets/d94756fc-a68e-44d1-bbfe-4aa2752e16b6" />
+
+
 ## Q4 - Timezone et donnees temps reel
 
 Le parametre `timezone=Europe/Paris` est essentiel car:
@@ -118,53 +121,32 @@ Exemple concret de corruption:
 
 - Si meteo est interpretee en UTC et production en Europe/Paris, la production de 14:00 locale peut etre comparee a la meteo de 12:00 UTC selon la date, generant des fausses alertes de sous-production.
 
-## Captures d'ecran a inserer
+<img width="1896" height="764" alt="image" src="https://github.com/user-attachments/assets/ee8ba6f7-cef0-435c-a37a-6d064ddf4c62" />
 
-### Capture 1 - DAG principal en succes
 
-- Cible: vue DAGs avec energie_meteo_dag en vert
-- Emplacement image: A REMPLIR
-- Commentaire: A REMPLIR
+### Capture
 
 <img width="1909" height="907" alt="image" src="https://github.com/user-attachments/assets/8b24ad51-88d0-4e4a-9c9c-55510846e157" />
 
 
 
-### Capture 2 - Vue Graph (5 taches)
-
-- Cible: graphe t1 >> [t2, t3] >> t4 >> t5
-- Emplacement image: A REMPLIR
-- Commentaire: A REMPLIR
-
-### Capture 3 - Logs generer_rapport_energie
-
 - Cible: tableau recap des regions dans les logs
-- Emplacement image: A REMPLIR
-- Commentaire: A REMPLIR
+- 
+<img width="1896" height="658" alt="image" src="https://github.com/user-attachments/assets/b594e053-e37a-4a61-8b8a-090607314cef" />
 
-### Capture 4 - XCom analyser_correlation
+<img width="1901" height="899" alt="image" src="https://github.com/user-attachments/assets/161aec05-634f-4f19-82e7-171743aa24fc" />
 
-- Cible: dictionnaire d'alertes par region
-- Emplacement image: A REMPLIR
-- Commentaire: A REMPLIR
 
-### Capture 5 - JSON genere
+<img width="1881" height="903" alt="image" src="https://github.com/user-attachments/assets/cad06862-489a-4060-96f2-10cd8cd4097e" />
 
-- Cible: contenu du rapport JSON
-- Emplacement image: A REMPLIR
-- Commentaire: A REMPLIR
 
-### Capture 6 - Dynamic Task Mapping
+<img width="1898" height="818" alt="image" src="https://github.com/user-attachments/assets/45d3b6ca-7f3a-4ad0-b3c3-4369d6c81da4" />
 
-- Cible: sous-instances mappees extraire_meteo_region[0..4]
-- Emplacement image: A REMPLIR
-- Commentaire: A REMPLIR
 
-### Capture 7 - Exercice dag_broken corrige
 
-- Cible: run success de dag_broken
-- Emplacement image: A REMPLIR
-- Commentaire: A REMPLIR
+<img width="1909" height="885" alt="image" src="https://github.com/user-attachments/assets/2efbe4c8-18ab-4b6f-9db9-08bd37248033" />
+
+
 
 ## Traces d'execution locales
 
