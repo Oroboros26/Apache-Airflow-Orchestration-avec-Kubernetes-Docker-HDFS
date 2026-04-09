@@ -1,0 +1,14 @@
+[2026-04-09T13:31:29.435+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_xcom.generer_liste manual__2026-04-09T13:24:37+00:00 [queued]>
+[2026-04-09T13:31:29.464+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_xcom.generer_liste manual__2026-04-09T13:24:37+00:00 [queued]>
+[2026-04-09T13:31:29.465+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2026-04-09T13:31:29.502+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): generer_liste> on 2026-04-09 13:24:37+00:00
+[2026-04-09T13:31:29.519+0000] {standard_task_runner.py:60} INFO - Started process 208 to run task
+[2026-04-09T13:31:29.528+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'dag_xcom', 'generer_liste', 'manual__2026-04-09T13:24:37+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/dag_xcom.py', '--cfg-path', '/tmp/tmpv0jzzg41']
+[2026-04-09T13:31:29.536+0000] {standard_task_runner.py:88} INFO - Job 3: Subtask generer_liste
+[2026-04-09T13:31:29.831+0000] {task_command.py:423} INFO - Running <TaskInstance: dag_xcom.generer_liste manual__2026-04-09T13:24:37+00:00 [running]> on host 9ccb53d87b16
+[2026-04-09T13:31:30.311+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dag_xcom' AIRFLOW_CTX_TASK_ID='generer_liste' AIRFLOW_CTX_EXECUTION_DATE='2026-04-09T13:24:37+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-09T13:24:37+00:00'
+[2026-04-09T13:31:30.316+0000] {dag_xcom.py:26} INFO - Liste générée : [80, 94, 44, 44, 76]
+[2026-04-09T13:31:30.316+0000] {python.py:201} INFO - Done. Returned value was: [80, 94, 44, 44, 76]
+[2026-04-09T13:31:30.385+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=dag_xcom, task_id=generer_liste, execution_date=20260409T132437, start_date=20260409T133129, end_date=20260409T133130
+[2026-04-09T13:31:30.546+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-04-09T13:31:30.648+0000] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

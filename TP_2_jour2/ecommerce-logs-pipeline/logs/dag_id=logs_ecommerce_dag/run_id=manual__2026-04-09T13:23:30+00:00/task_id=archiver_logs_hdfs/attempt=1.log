@@ -1,0 +1,25 @@
+[2026-04-09T13:36:38.843+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: logs_ecommerce_dag.archiver_logs_hdfs manual__2026-04-09T13:23:30+00:00 [queued]>
+[2026-04-09T13:36:38.853+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: logs_ecommerce_dag.archiver_logs_hdfs manual__2026-04-09T13:23:30+00:00 [queued]>
+[2026-04-09T13:36:38.853+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2026-04-09T13:36:38.869+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): archiver_logs_hdfs> on 2026-04-09 13:23:30+00:00
+[2026-04-09T13:36:38.876+0000] {standard_task_runner.py:60} INFO - Started process 578 to run task
+[2026-04-09T13:36:38.883+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'logs_ecommerce_dag', 'archiver_logs_hdfs', 'manual__2026-04-09T13:23:30+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/logs_ecommerce_dag.py', '--cfg-path', '/tmp/tmp7xvqnngs']
+[2026-04-09T13:36:38.886+0000] {standard_task_runner.py:88} INFO - Job 29: Subtask archiver_logs_hdfs
+[2026-04-09T13:36:38.944+0000] {task_command.py:423} INFO - Running <TaskInstance: logs_ecommerce_dag.archiver_logs_hdfs manual__2026-04-09T13:23:30+00:00 [running]> on host 9ccb53d87b16
+[2026-04-09T13:36:39.031+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='logs_ecommerce_dag' AIRFLOW_CTX_TASK_ID='archiver_logs_hdfs' AIRFLOW_CTX_EXECUTION_DATE='2026-04-09T13:23:30+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-09T13:23:30+00:00'
+[2026-04-09T13:36:39.034+0000] {logs_ecommerce_dag.py:235} INFO - Déplacement HDFS : /data/ecommerce/logs/raw/access_2026-04-09.log → /data/ecommerce/logs/processed/access_2026-04-09.log
+[2026-04-09T13:36:39.046+0000] {taskinstance.py:2699} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/logs_ecommerce_dag.py", line 252, in archiver_logs_hdfs_fn
+    raise Exception(f"Échec du déplacement HDFS : {result}")
+Exception: Échec du déplacement HDFS : {'boolean': False}
+[2026-04-09T13:36:39.057+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=logs_ecommerce_dag, task_id=archiver_logs_hdfs, execution_date=20260409T132330, start_date=20260409T133638, end_date=20260409T133639
+[2026-04-09T13:36:39.069+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 29 for task archiver_logs_hdfs (Échec du déplacement HDFS : {'boolean': False}; 578)
+[2026-04-09T13:36:39.095+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-04-09T13:36:39.110+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check
