@@ -1,0 +1,18 @@
+[2026-04-09T08:05:46.280+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: energie_meteo_dag.collecter_production_electrique scheduled__2026-04-08T04:00:00+00:00 [queued]>
+[2026-04-09T08:05:46.359+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: energie_meteo_dag.collecter_production_electrique scheduled__2026-04-08T04:00:00+00:00 [queued]>
+[2026-04-09T08:05:46.361+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 3
+[2026-04-09T08:05:46.473+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): collecter_production_electrique> on 2026-04-08 04:00:00+00:00
+[2026-04-09T08:05:46.517+0000] {standard_task_runner.py:60} INFO - Started process 108 to run task
+[2026-04-09T08:05:46.541+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'energie_meteo_dag', 'collecter_production_electrique', 'scheduled__2026-04-08T04:00:00+00:00', '--job-id', '309', '--raw', '--subdir', 'DAGS_FOLDER/energie_meteo_dag.py', '--cfg-path', '/tmp/tmp5lpnbphk']
+[2026-04-09T08:05:46.564+0000] {standard_task_runner.py:88} INFO - Job 309: Subtask collecter_production_electrique
+[2026-04-09T08:05:47.219+0000] {task_command.py:423} INFO - Running <TaskInstance: energie_meteo_dag.collecter_production_electrique scheduled__2026-04-08T04:00:00+00:00 [running]> on host d38f1858f6b8
+[2026-04-09T08:05:48.043+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='rte-data-team' AIRFLOW_CTX_DAG_ID='energie_meteo_dag' AIRFLOW_CTX_TASK_ID='collecter_production_electrique' AIRFLOW_CTX_EXECUTION_DATE='2026-04-08T04:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-04-08T04:00:00+00:00'
+[2026-04-09T08:05:48.541+0000] {energie_meteo_dag.py:168} INFO - Production Île-de-France -> solaire_mw=0.00, eolien_mw=0.00
+[2026-04-09T08:05:48.545+0000] {energie_meteo_dag.py:168} INFO - Production Occitanie -> solaire_mw=0.00, eolien_mw=0.00
+[2026-04-09T08:05:48.547+0000] {energie_meteo_dag.py:168} INFO - Production Nouvelle-Aquitaine -> solaire_mw=0.00, eolien_mw=0.00
+[2026-04-09T08:05:48.547+0000] {energie_meteo_dag.py:168} INFO - Production Auvergne-Rhône-Alpes -> solaire_mw=0.00, eolien_mw=0.00
+[2026-04-09T08:05:48.547+0000] {energie_meteo_dag.py:168} INFO - Production Hauts-de-France -> solaire_mw=0.00, eolien_mw=0.00
+[2026-04-09T08:05:48.561+0000] {python.py:201} INFO - Done. Returned value was: {'Île-de-France': {'solaire_mw': 0.0, 'eolien_mw': 0.0}, 'Occitanie': {'solaire_mw': 0.0, 'eolien_mw': 0.0}, 'Nouvelle-Aquitaine': {'solaire_mw': 0.0, 'eolien_mw': 0.0}, 'Auvergne-Rhône-Alpes': {'solaire_mw': 0.0, 'eolien_mw': 0.0}, 'Hauts-de-France': {'solaire_mw': 0.0, 'eolien_mw': 0.0}}
+[2026-04-09T08:05:48.733+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=energie_meteo_dag, task_id=collecter_production_electrique, execution_date=20260408T040000, start_date=20260409T080546, end_date=20260409T080548
+[2026-04-09T08:05:48.974+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-04-09T08:05:49.708+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check
