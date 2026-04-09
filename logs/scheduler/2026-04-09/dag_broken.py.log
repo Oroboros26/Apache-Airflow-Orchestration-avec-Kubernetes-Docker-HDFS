@@ -2385,3 +2385,10 @@
 [2026-04-09T12:49:14.304+0000] {logging_mixin.py:188} INFO - [2026-04-09T12:49:14.304+0000] {dag.py:3033} INFO - Sync 1 DAGs
 [2026-04-09T12:49:14.331+0000] {logging_mixin.py:188} INFO - [2026-04-09T12:49:14.331+0000] {dag.py:3820} INFO - Setting next_dagrun for dag_broken to 2026-04-08T22:00:00+00:00, run_after=2026-04-09T22:00:00+00:00
 [2026-04-09T12:49:14.356+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_broken.py took 0.103 seconds
+[2026-04-09T12:49:45.057+0000] {processor.py:161} INFO - Started process (PID=489) to work on /opt/airflow/dags/dag_broken.py
+[2026-04-09T12:49:45.061+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_broken.py for tasks to queue
+[2026-04-09T12:49:45.067+0000] {logging_mixin.py:188} INFO - [2026-04-09T12:49:45.066+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_broken.py
+[2026-04-09T12:49:45.105+0000] {processor.py:840} INFO - DAG(s) 'dag_broken' retrieved from /opt/airflow/dags/dag_broken.py
+[2026-04-09T12:49:45.143+0000] {logging_mixin.py:188} INFO - [2026-04-09T12:49:45.143+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-04-09T12:49:45.172+0000] {logging_mixin.py:188} INFO - [2026-04-09T12:49:45.171+0000] {dag.py:3820} INFO - Setting next_dagrun for dag_broken to 2026-04-08T22:00:00+00:00, run_after=2026-04-09T22:00:00+00:00
+[2026-04-09T12:49:45.190+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_broken.py took 0.143 seconds

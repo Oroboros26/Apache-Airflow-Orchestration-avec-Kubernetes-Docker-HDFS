@@ -2385,3 +2385,10 @@
 [2026-04-09T12:49:15.461+0000] {logging_mixin.py:188} INFO - [2026-04-09T12:49:15.460+0000] {dag.py:3033} INFO - Sync 1 DAGs
 [2026-04-09T12:49:15.564+0000] {logging_mixin.py:188} INFO - [2026-04-09T12:49:15.564+0000] {dag.py:3820} INFO - Setting next_dagrun for energie_meteo_dag_dynamic to 2026-04-09T04:00:00+00:00, run_after=2026-04-10T04:00:00+00:00
 [2026-04-09T12:49:15.631+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/energie_meteo_dag_dynamic.py took 0.343 seconds
+[2026-04-09T12:49:46.100+0000] {processor.py:161} INFO - Started process (PID=491) to work on /opt/airflow/dags/energie_meteo_dag_dynamic.py
+[2026-04-09T12:49:46.104+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/energie_meteo_dag_dynamic.py for tasks to queue
+[2026-04-09T12:49:46.112+0000] {logging_mixin.py:188} INFO - [2026-04-09T12:49:46.112+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/energie_meteo_dag_dynamic.py
+[2026-04-09T12:49:46.171+0000] {processor.py:840} INFO - DAG(s) 'energie_meteo_dag_dynamic' retrieved from /opt/airflow/dags/energie_meteo_dag_dynamic.py
+[2026-04-09T12:49:46.269+0000] {logging_mixin.py:188} INFO - [2026-04-09T12:49:46.269+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-04-09T12:49:46.389+0000] {logging_mixin.py:188} INFO - [2026-04-09T12:49:46.389+0000] {dag.py:3820} INFO - Setting next_dagrun for energie_meteo_dag_dynamic to 2026-04-09T04:00:00+00:00, run_after=2026-04-10T04:00:00+00:00
+[2026-04-09T12:49:46.440+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/energie_meteo_dag_dynamic.py took 0.358 seconds
