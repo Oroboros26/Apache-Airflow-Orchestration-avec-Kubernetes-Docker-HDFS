@@ -1,0 +1,14 @@
+[2026-04-10T08:33:23.959+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: logs_compaction_dag.lister_fichiers_semaine scheduled__2026-03-30T03:00:00+00:00 [queued]>
+[2026-04-10T08:33:23.967+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: logs_compaction_dag.lister_fichiers_semaine scheduled__2026-03-30T03:00:00+00:00 [queued]>
+[2026-04-10T08:33:23.967+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 1
+[2026-04-10T08:33:23.978+0000] {taskinstance.py:2192} INFO - Executing <Task(_PythonDecoratedOperator): lister_fichiers_semaine> on 2026-03-30 03:00:00+00:00
+[2026-04-10T08:33:23.982+0000] {standard_task_runner.py:60} INFO - Started process 260 to run task
+[2026-04-10T08:33:23.985+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'logs_compaction_dag', 'lister_fichiers_semaine', 'scheduled__2026-03-30T03:00:00+00:00', '--job-id', '35', '--raw', '--subdir', 'DAGS_FOLDER/logs_compaction_dag.py', '--cfg-path', '/tmp/tmpa76woqzz']
+[2026-04-10T08:33:23.987+0000] {standard_task_runner.py:88} INFO - Job 35: Subtask lister_fichiers_semaine
+[2026-04-10T08:33:24.025+0000] {task_command.py:423} INFO - Running <TaskInstance: logs_compaction_dag.lister_fichiers_semaine scheduled__2026-03-30T03:00:00+00:00 [running]> on host 9ccb53d87b16
+[2026-04-10T08:33:24.084+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='logs_compaction_dag' AIRFLOW_CTX_TASK_ID='lister_fichiers_semaine' AIRFLOW_CTX_EXECUTION_DATE='2026-03-30T03:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-03-30T03:00:00+00:00'
+[2026-04-10T08:33:24.119+0000] {logs_compaction_dag.py:59} INFO - Fichiers de la semaine : []
+[2026-04-10T08:33:24.121+0000] {python.py:201} INFO - Done. Returned value was: []
+[2026-04-10T08:33:24.138+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=logs_compaction_dag, task_id=lister_fichiers_semaine, execution_date=20260330T030000, start_date=20260410T083323, end_date=20260410T083324
+[2026-04-10T08:33:24.161+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-04-10T08:33:24.181+0000] {taskinstance.py:3281} INFO - 2 downstream tasks scheduled from follow-on schedule check

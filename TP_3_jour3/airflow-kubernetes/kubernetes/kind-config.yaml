@@ -1,0 +1,29 @@
+# ──────────────────────────────────
+# Kind Cluster Configuration
+# TP Jour 3 — Airflow + Kubernetes
+# ──────────────────────────────────
+# Usage : kind create cluster --config kind-config.yaml --name airflow-cluster
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+nodes:
+  # Nœud Control Plane (master)
+  - role: control-plane
+    kubeadmConfigPatches:
+      - |
+        kind: InitConfiguration
+        nodeRegistration:
+          kubeletExtraArgs:
+            node-labels: "ingress-ready=true"
+    extraPortMappings:
+      # Port pour Airflow Webserver
+      - containerPort: 30080
+        hostPort: 8081
+        protocol: TCP
+      # Port pour PostgreSQL (debug)
+      - containerPort: 30432
+        hostPort: 5433
+        protocol: TCP
+  # Nœud Worker 1
+  - role: worker
+  # Nœud Worker 2
+  - role: worker

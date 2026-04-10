@@ -1,0 +1,51 @@
+# ──────────────────────────────────
+# ServiceAccount + RBAC pour Airflow
+# Nécessaire pour le KubernetesExecutor
+# ──────────────────────────────────
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: airflow
+  namespace: airflow
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: airflow-role
+  namespace: airflow
+rules:
+  # Permissions pour créer/gérer les pods worker
+  - apiGroups: [""]
+    resources: ["pods"]
+    verbs: ["create", "get", "list", "watch", "delete", "patch"]
+  - apiGroups: [""]
+    resources: ["pods/log"]
+    verbs: ["get", "list"]
+  - apiGroups: [""]
+    resources: ["pods/exec"]
+    verbs: ["create", "get"]
+  - apiGroups: [""]
+    resources: ["events"]
+    verbs: ["list"]
+  # Permissions pour les ConfigMaps (pod templates)
+  - apiGroups: [""]
+    resources: ["configmaps"]
+    verbs: ["get", "list", "watch"]
+  # Permissions pour les Secrets
+  - apiGroups: [""]
+    resources: ["secrets"]
+    verbs: ["get", "list", "watch"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: airflow-rolebinding
+  namespace: airflow
+subjects:
+  - kind: ServiceAccount
+    name: airflow
+    namespace: airflow
+roleRef:
+  kind: Role
+  name: airflow-role
+  apiGroup: rbac.authorization.k8s.io

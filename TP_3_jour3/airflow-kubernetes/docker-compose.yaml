@@ -1,0 +1,125 @@
+##############################################
+# TP Jour 3 — Airflow + Kubernetes
+# Docker Compose (environnement de développement)
+##############################################
+#
+# Ce fichier lance Airflow en mode LocalExecutor
+# pour développer/tester les DAGs avant de les
+# déployer sur un cluster Kubernetes.
+#
+# Usage :
+#   docker compose build
+#   docker compose up airflow-init
+#   docker compose up -d
+#
+##############################################
+
+x-airflow-common: &airflow-common
+  build:
+    context: .
+    dockerfile: Dockerfile
+  environment: &airflow-common-env
+    AIRFLOW__CORE__EXECUTOR: LocalExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    AIRFLOW__CORE__FERNET_KEY: ''
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
+    AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    AIRFLOW__API__AUTH_BACKENDS: 'airflow.api.auth.backend.basic_auth,airflow.api.auth.backend.session'
+    AIRFLOW__WEBSERVER__EXPOSE_CONFIG: 'true'
+    AIRFLOW__WEBSERVER__RBAC: 'true'
+    # Configuration pour KubernetesPodOperator (connexion au cluster Kind)
+    AIRFLOW__KUBERNETES__NAMESPACE: airflow
+    AIRFLOW__KUBERNETES__IN_CLUSTER: 'false'
+  volumes:
+    - ./dags:/opt/airflow/dags
+    - ./logs:/opt/airflow/logs
+    - ./plugins:/opt/airflow/plugins
+    - ${HOME}/.kube/config:/opt/airflow/.kube/config:ro
+  user: "${AIRFLOW_UID:-50000}:0"
+  depends_on: &airflow-common-depends-on
+    postgres:
+      condition: service_healthy
+
+services:
+  # ─────────────────────────────────────────
+  # Base de données PostgreSQL pour Airflow
+  # ─────────────────────────────────────────
+  postgres:
+    image: postgres:13
+    container_name: airflow_k8s_postgres
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-db-volume:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 10s
+      retries: 5
+      start_period: 5s
+
+  # ─────────────────────────────────────────
+  # Initialisation de la DB Airflow
+  # ─────────────────────────────────────────
+  airflow-init:
+    <<: *airflow-common
+    container_name: airflow_k8s_init
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - |
+        airflow db init
+        airflow users create \
+          --username admin \
+          --firstname Admin \
+          --lastname User \
+          --role Admin \
+          --email admin@example.com \
+          --password admin
+    environment:
+      <<: *airflow-common-env
+      _AIRFLOW_DB_MIGRATE: 'true'
+      _AIRFLOW_WWW_USER_CREATE: 'true'
+    user: "0:0"
+
+  # ─────────────────────────────────────────
+  # Airflow Webserver (UI) — port 8080
+  # ─────────────────────────────────────────
+  airflow-webserver:
+    <<: *airflow-common
+    container_name: airflow_k8s_webserver
+    command: webserver
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    restart: always
+    depends_on:
+      <<: *airflow-common-depends-on
+
+  # ─────────────────────────────────────────
+  # Airflow Scheduler
+  # ─────────────────────────────────────────
+  airflow-scheduler:
+    <<: *airflow-common
+    container_name: airflow_k8s_scheduler
+    command: scheduler
+    healthcheck:
+      test: ["CMD", "airflow", "jobs", "check", "--job-type", "SchedulerJob", "--hostname", "$${HOSTNAME}"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    restart: always
+    depends_on:
+      <<: *airflow-common-depends-on
+
+volumes:
+  postgres-db-volume:

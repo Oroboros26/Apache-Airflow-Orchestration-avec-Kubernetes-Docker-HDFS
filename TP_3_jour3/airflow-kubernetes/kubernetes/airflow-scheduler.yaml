@@ -1,0 +1,67 @@
+# ──────────────────────────────────
+# Airflow Scheduler — Deployment
+# ──────────────────────────────────
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: airflow-scheduler
+  namespace: airflow
+  labels:
+    app: airflow
+    component: scheduler
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: airflow
+      component: scheduler
+  template:
+    metadata:
+      labels:
+        app: airflow
+        component: scheduler
+    spec:
+      serviceAccountName: airflow
+      initContainers:
+        - name: init-db
+          image: apache/airflow:2.8.1-python3.11
+          command: ["bash", "-c"]
+          args:
+            - |
+              airflow db init
+              airflow users create \
+                --username admin \
+                --firstname Admin \
+                --lastname User \
+                --role Admin \
+                --email admin@example.com \
+                --password admin || true
+          envFrom:
+            - configMapRef:
+                name: airflow-config
+      containers:
+        - name: scheduler
+          image: apache/airflow:2.8.1-python3.11
+          command: ["airflow", "scheduler"]
+          envFrom:
+            - configMapRef:
+                name: airflow-config
+          volumeMounts:
+            - name: dags
+              mountPath: /opt/airflow/dags
+            - name: logs
+              mountPath: /opt/airflow/logs
+          resources:
+            requests:
+              cpu: 250m
+              memory: 512Mi
+            limits:
+              cpu: 1000m
+              memory: 1Gi
+      volumes:
+        - name: dags
+          persistentVolumeClaim:
+            claimName: airflow-dags-pvc
+        - name: logs
+          persistentVolumeClaim:
+            claimName: airflow-logs-pvc

@@ -1,0 +1,93 @@
+# ──────────────────────────────────
+# Airflow Webserver — Deployment + Service
+# ──────────────────────────────────
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: airflow-webserver
+  namespace: airflow
+  labels:
+    app: airflow
+    component: webserver
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: airflow
+      component: webserver
+  template:
+    metadata:
+      labels:
+        app: airflow
+        component: webserver
+    spec:
+      serviceAccountName: airflow
+      initContainers:
+        - name: wait-for-db
+          image: apache/airflow:2.8.1-python3.11
+          command: ["bash", "-c"]
+          args:
+            - |
+              echo "Attente de PostgreSQL..."
+              while ! airflow db check 2>/dev/null; do
+                sleep 2
+              done
+              echo "DB prête !"
+          envFrom:
+            - configMapRef:
+                name: airflow-config
+      containers:
+        - name: webserver
+          image: apache/airflow:2.8.1-python3.11
+          command: ["airflow", "webserver"]
+          ports:
+            - containerPort: 8080
+          envFrom:
+            - configMapRef:
+                name: airflow-config
+          volumeMounts:
+            - name: dags
+              mountPath: /opt/airflow/dags
+            - name: logs
+              mountPath: /opt/airflow/logs
+          resources:
+            requests:
+              cpu: 250m
+              memory: 512Mi
+            limits:
+              cpu: 1000m
+              memory: 1Gi
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8080
+            initialDelaySeconds: 60
+            periodSeconds: 30
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8080
+            initialDelaySeconds: 30
+            periodSeconds: 10
+      volumes:
+        - name: dags
+          persistentVolumeClaim:
+            claimName: airflow-dags-pvc
+        - name: logs
+          persistentVolumeClaim:
+            claimName: airflow-logs-pvc
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: airflow-webserver
+  namespace: airflow
+spec:
+  selector:
+    app: airflow
+    component: webserver
+  ports:
+    - port: 8080
+      targetPort: 8080
+      nodePort: 30080
+  type: NodePort

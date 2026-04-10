@@ -1,0 +1,109 @@
+# ──────────────────────────────────────────────────
+# Helm Values — Airflow sur Kubernetes
+# ──────────────────────────────────────────────────
+# Usage :
+#   helm repo add apache-airflow https://airflow.apache.org
+#   helm install airflow apache-airflow/airflow \
+#     -f values-airflow-helm.yaml \
+#     --namespace airflow --create-namespace
+# ──────────────────────────────────────────────────
+
+# Executor : KubernetesExecutor (un pod par tâche)
+executor: KubernetesExecutor
+
+# Image Airflow
+defaultAirflowRepository: apache/airflow
+defaultAirflowTag: "2.8.1"
+airflowVersion: "2.8.1"
+
+# ─── Webserver ───
+webserver:
+  replicas: 1
+  service:
+    type: NodePort
+    ports:
+      - port: 8080
+        nodePort: 30080
+  resources:
+    requests:
+      cpu: 250m
+      memory: 512Mi
+    limits:
+      cpu: 1000m
+      memory: 1Gi
+  defaultUser:
+    enabled: true
+    username: admin
+    password: admin
+    firstname: Admin
+    lastname: User
+    email: admin@example.com
+    role: Admin
+
+# ─── Scheduler ───
+scheduler:
+  replicas: 1
+  resources:
+    requests:
+      cpu: 250m
+      memory: 512Mi
+    limits:
+      cpu: 1000m
+      memory: 1Gi
+
+# ─── Workers (désactivés avec KubernetesExecutor) ───
+workers:
+  enabled: false
+
+# ─── Triggerer ───
+triggerer:
+  enabled: true
+  replicas: 1
+
+# ─── PostgreSQL (base de données interne) ───
+postgresql:
+  enabled: true
+  auth:
+    username: airflow
+    password: airflow
+    database: airflow
+
+# ─── Redis (désactivé — pas de CeleryExecutor) ───
+redis:
+  enabled: false
+
+# ─── DAGs ───
+dags:
+  persistence:
+    enabled: true
+    size: 1Gi
+    accessMode: ReadWriteOnce
+  gitSync:
+    enabled: false  # Activer en production pour sync Git automatique
+
+# ─── Logs ───
+logs:
+  persistence:
+    enabled: true
+    size: 2Gi
+
+# ─── KubernetesExecutor Configuration ───
+config:
+  core:
+    dags_are_paused_at_creation: "true"
+    load_examples: "false"
+  kubernetes_executor:
+    namespace: airflow
+    delete_worker_pods: "true"
+    delete_worker_pods_on_failure: "false"
+    worker_container_repository: apache/airflow
+    worker_container_tag: "2.8.1"
+
+# ─── Extra env vars ───
+env: []
+
+# ─── Pod template pour les workers K8sExecutor ───
+# Chaque tâche crée un pod basé sur ce template
+extraEnvFrom: |
+  - configMapRef:
+      name: airflow-config

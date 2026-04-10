@@ -1,0 +1,21 @@
+# ──────────────────────────────────
+# ConfigMap — Configuration Airflow
+# ──────────────────────────────────
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: airflow-config
+  namespace: airflow
+data:
+  AIRFLOW__CORE__EXECUTOR: "KubernetesExecutor"
+  AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: "postgresql+psycopg2://airflow:airflow@postgres:5432/airflow"
+  AIRFLOW__CORE__FERNET_KEY: ""
+  AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "true"
+  AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+  AIRFLOW__API__AUTH_BACKENDS: "airflow.api.auth.backend.basic_auth,airflow.api.auth.backend.session"
+  AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "true"
+  AIRFLOW__KUBERNETES_EXECUTOR__NAMESPACE: "airflow"
+  AIRFLOW__KUBERNETES_EXECUTOR__WORKER_CONTAINER_REPOSITORY: "apache/airflow"
+  AIRFLOW__KUBERNETES_EXECUTOR__WORKER_CONTAINER_TAG: "2.8.1-python3.11"
+  AIRFLOW__KUBERNETES_EXECUTOR__DELETE_WORKER_PODS: "true"
+  AIRFLOW__KUBERNETES_EXECUTOR__DELETE_WORKER_PODS_ON_FAILURE: "false"
