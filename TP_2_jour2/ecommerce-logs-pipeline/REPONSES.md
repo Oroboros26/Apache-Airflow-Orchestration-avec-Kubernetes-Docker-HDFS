@@ -75,7 +75,9 @@
 
 ## Captures d'écran
 
-*(À compléter après exécution du pipeline)*
+<img width="1917" height="837" alt="image" src="https://github.com/user-attachments/assets/0b7fe32b-3b6e-4d77-b887-39567a3d5caf" />
+<img width="1743" height="823" alt="image" src="https://github.com/user-attachments/assets/03ec3fc6-44cc-4aa7-be8d-48aaad7d4e20" />
+
 
 1. `docker compose ps` — tous les conteneurs running/healthy
 2. `hdfs dfsadmin -report` — 1 Live DataNode
