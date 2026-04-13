@@ -1,0 +1,39 @@
+[2026-04-13T08:11:51.748+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: helm_monitoring_k8s.expliquer_helm manual__2026-04-13T08:11:50.411497+00:00 [queued]>
+[2026-04-13T08:11:51.780+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: helm_monitoring_k8s.expliquer_helm manual__2026-04-13T08:11:50.411497+00:00 [queued]>
+[2026-04-13T08:11:51.780+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-04-13T08:11:51.811+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): expliquer_helm> on 2026-04-13 08:11:50.411497+00:00
+[2026-04-13T08:11:51.826+0000] {standard_task_runner.py:60} INFO - Started process 543 to run task
+[2026-04-13T08:11:51.832+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'helm_monitoring_k8s', 'expliquer_helm', 'manual__2026-04-13T08:11:50.411497+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/dag_helm_monitoring.py', '--cfg-path', '/tmp/tmp2ifibbwf']
+[2026-04-13T08:11:51.834+0000] {standard_task_runner.py:88} INFO - Job 15: Subtask expliquer_helm
+[2026-04-13T08:11:51.888+0000] {task_command.py:423} INFO - Running <TaskInstance: helm_monitoring_k8s.expliquer_helm manual__2026-04-13T08:11:50.411497+00:00 [running]> on host b53220b8d790
+[2026-04-13T08:11:52.060+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mohamed' AIRFLOW_CTX_DAG_ID='helm_monitoring_k8s' AIRFLOW_CTX_TASK_ID='expliquer_helm' AIRFLOW_CTX_EXECUTION_DATE='2026-04-13T08:11:50.411497+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-13T08:11:50.411497+00:00'
+[2026-04-13T08:11:52.061+0000] {logging_mixin.py:188} INFO - ============================================================
+[2026-04-13T08:11:52.063+0000] {logging_mixin.py:188} INFO -   HELM — Gestionnaire de packages Kubernetes
+[2026-04-13T08:11:52.065+0000] {logging_mixin.py:188} INFO - ============================================================
+[2026-04-13T08:11:52.065+0000] {logging_mixin.py:188} INFO -   📖 Qu'est-ce que Helm ?
+[2026-04-13T08:11:52.065+0000] {logging_mixin.py:188} INFO -      - Le 'apt/brew' de Kubernetes
+[2026-04-13T08:11:52.066+0000] {logging_mixin.py:188} INFO -      - Gère les applications K8s via des 'Charts'
+[2026-04-13T08:11:52.066+0000] {logging_mixin.py:188} INFO -      - Un Chart = ensemble de manifestes YAML templatés
+[2026-04-13T08:11:52.066+0000] {logging_mixin.py:188} INFO -   📦 Chart Airflow officiel :
+[2026-04-13T08:11:52.066+0000] {logging_mixin.py:188} INFO -      helm repo add apache-*** https://***.apache.org
+[2026-04-13T08:11:52.066+0000] {logging_mixin.py:188} INFO -      helm install *** apache-***/***
+[2026-04-13T08:11:52.067+0000] {logging_mixin.py:188} INFO -   📄 Fichier values.yaml :
+[2026-04-13T08:11:52.067+0000] {logging_mixin.py:188} INFO -      - Personnalise l'installation (executor, images, etc.)
+[2026-04-13T08:11:52.067+0000] {logging_mixin.py:188} INFO -      - Override des valeurs par défaut du Chart
+[2026-04-13T08:11:52.067+0000] {logging_mixin.py:188} INFO -   📋 Valeurs clés pour K8sExecutor :
+[2026-04-13T08:11:52.068+0000] {logging_mixin.py:188} INFO -      executor: KubernetesExecutor
+[2026-04-13T08:11:52.068+0000] {logging_mixin.py:188} INFO -      defaultAirflowRepository: apache/***
+[2026-04-13T08:11:52.069+0000] {logging_mixin.py:188} INFO -      defaultAirflowTag: 2.8.1
+[2026-04-13T08:11:52.069+0000] {logging_mixin.py:188} INFO -      webserver.replicas: 1
+[2026-04-13T08:11:52.069+0000] {logging_mixin.py:188} INFO -      scheduler.replicas: 1
+[2026-04-13T08:11:52.070+0000] {logging_mixin.py:188} INFO -      workers.replicas: 0
+[2026-04-13T08:11:52.072+0000] {logging_mixin.py:188} INFO -      postgresql.enabled: True
+[2026-04-13T08:11:52.072+0000] {logging_mixin.py:188} INFO -      redis.enabled: False
+[2026-04-13T08:11:52.072+0000] {logging_mixin.py:188} INFO -      dags.persistence.enabled: True
+[2026-04-13T08:11:52.074+0000] {logging_mixin.py:188} INFO -      dags.gitSync.enabled: False
+[2026-04-13T08:11:52.075+0000] {logging_mixin.py:188} INFO -      logs.persistence.enabled: True
+[2026-04-13T08:11:52.075+0000] {logging_mixin.py:188} INFO - ============================================================
+[2026-04-13T08:11:52.075+0000] {python.py:201} INFO - Done. Returned value was: {'executor': 'KubernetesExecutor', 'defaultAirflowRepository': 'apache/***', 'defaultAirflowTag': '2.8.1', 'webserver.replicas': 1, 'scheduler.replicas': 1, 'workers.replicas': 0, 'postgresql.enabled': True, 'redis.enabled': False, 'dags.persistence.enabled': True, 'dags.gitSync.enabled': False, 'logs.persistence.enabled': True}
+[2026-04-13T08:11:52.107+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=helm_monitoring_k8s, task_id=expliquer_helm, execution_date=20260413T081150, start_date=20260413T081151, end_date=20260413T081152
+[2026-04-13T08:11:52.170+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-04-13T08:11:52.203+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

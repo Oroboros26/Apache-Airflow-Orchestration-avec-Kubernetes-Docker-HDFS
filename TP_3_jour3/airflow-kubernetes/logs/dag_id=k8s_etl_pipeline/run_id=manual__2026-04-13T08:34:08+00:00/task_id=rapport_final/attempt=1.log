@@ -1,0 +1,17 @@
+[2026-04-13T08:34:15.025+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: k8s_etl_pipeline.rapport_final manual__2026-04-13T08:34:08+00:00 [queued]>
+[2026-04-13T08:34:15.031+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: k8s_etl_pipeline.rapport_final manual__2026-04-13T08:34:08+00:00 [queued]>
+[2026-04-13T08:34:15.031+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-04-13T08:34:15.039+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): rapport_final> on 2026-04-13 08:34:08+00:00
+[2026-04-13T08:34:15.044+0000] {standard_task_runner.py:60} INFO - Started process 2166 to run task
+[2026-04-13T08:34:15.047+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'k8s_etl_pipeline', 'rapport_final', 'manual__2026-04-13T08:34:08+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/k8s_etl_pipeline_dag.py', '--cfg-path', '/tmp/tmpheh12fnc']
+[2026-04-13T08:34:15.049+0000] {standard_task_runner.py:88} INFO - Job 25: Subtask rapport_final
+[2026-04-13T08:34:15.080+0000] {task_command.py:423} INFO - Running <TaskInstance: k8s_etl_pipeline.rapport_final manual__2026-04-13T08:34:08+00:00 [running]> on host b53220b8d790
+[2026-04-13T08:34:15.136+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mohamed' AIRFLOW_CTX_DAG_ID='k8s_etl_pipeline' AIRFLOW_CTX_TASK_ID='rapport_final' AIRFLOW_CTX_EXECUTION_DATE='2026-04-13T08:34:08+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-13T08:34:08+00:00'
+[2026-04-13T08:34:15.137+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-04-13T08:34:15.138+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "📋 Rapport pipeline ETL K8s — 2026-04-13 — terminé à $(date)"']
+[2026-04-13T08:34:15.149+0000] {subprocess.py:86} INFO - Output:
+[2026-04-13T08:34:15.155+0000] {subprocess.py:93} INFO - 📋 Rapport pipeline ETL K8s — 2026-04-13 — terminé à Mon Apr 13 08:34:15 UTC 2026
+[2026-04-13T08:34:15.155+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2026-04-13T08:34:15.171+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=k8s_etl_pipeline, task_id=rapport_final, execution_date=20260413T083408, start_date=20260413T083415, end_date=20260413T083415
+[2026-04-13T08:34:15.219+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-04-13T08:34:15.231+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

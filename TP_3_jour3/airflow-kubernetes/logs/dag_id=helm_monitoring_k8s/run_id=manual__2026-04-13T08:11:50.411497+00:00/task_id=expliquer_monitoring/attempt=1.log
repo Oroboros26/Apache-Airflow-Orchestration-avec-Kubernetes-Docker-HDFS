@@ -1,0 +1,45 @@
+[2026-04-13T08:11:51.664+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: helm_monitoring_k8s.expliquer_monitoring manual__2026-04-13T08:11:50.411497+00:00 [queued]>
+[2026-04-13T08:11:51.681+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: helm_monitoring_k8s.expliquer_monitoring manual__2026-04-13T08:11:50.411497+00:00 [queued]>
+[2026-04-13T08:11:51.682+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-04-13T08:11:51.746+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): expliquer_monitoring> on 2026-04-13 08:11:50.411497+00:00
+[2026-04-13T08:11:51.768+0000] {standard_task_runner.py:60} INFO - Started process 542 to run task
+[2026-04-13T08:11:51.773+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'helm_monitoring_k8s', 'expliquer_monitoring', 'manual__2026-04-13T08:11:50.411497+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/dag_helm_monitoring.py', '--cfg-path', '/tmp/tmpo4r707_l']
+[2026-04-13T08:11:51.781+0000] {standard_task_runner.py:88} INFO - Job 14: Subtask expliquer_monitoring
+[2026-04-13T08:11:51.928+0000] {task_command.py:423} INFO - Running <TaskInstance: helm_monitoring_k8s.expliquer_monitoring manual__2026-04-13T08:11:50.411497+00:00 [running]> on host b53220b8d790
+[2026-04-13T08:11:52.071+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mohamed' AIRFLOW_CTX_DAG_ID='helm_monitoring_k8s' AIRFLOW_CTX_TASK_ID='expliquer_monitoring' AIRFLOW_CTX_EXECUTION_DATE='2026-04-13T08:11:50.411497+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-13T08:11:50.411497+00:00'
+[2026-04-13T08:11:52.074+0000] {logging_mixin.py:188} INFO - ============================================================
+[2026-04-13T08:11:52.076+0000] {logging_mixin.py:188} INFO -   MONITORING — Airflow sur Kubernetes
+[2026-04-13T08:11:52.077+0000] {logging_mixin.py:188} INFO - ============================================================
+[2026-04-13T08:11:52.077+0000] {logging_mixin.py:188} INFO -   🔍 Niveaux de monitoring :
+[2026-04-13T08:11:52.078+0000] {logging_mixin.py:188} INFO -   1️⃣ Niveau Airflow (métriques internes) :
+[2026-04-13T08:11:52.079+0000] {logging_mixin.py:188} INFO -      - Tâches en succès/échec/retry
+[2026-04-13T08:11:52.079+0000] {logging_mixin.py:188} INFO -      - Durée d'exécution des DAGs
+[2026-04-13T08:11:52.080+0000] {logging_mixin.py:188} INFO -      - File d'attente du scheduler
+[2026-04-13T08:11:52.080+0000] {logging_mixin.py:188} INFO -      - Endpoint : /api/v1/dags, /health
+[2026-04-13T08:11:52.081+0000] {logging_mixin.py:188} INFO -   2️⃣ Niveau Kubernetes (infrastructure) :
+[2026-04-13T08:11:52.082+0000] {logging_mixin.py:188} INFO -      - kubectl top nodes       → CPU/mémoire nœuds
+[2026-04-13T08:11:52.082+0000] {logging_mixin.py:188} INFO -      - kubectl top pods        → CPU/mémoire pods
+[2026-04-13T08:11:52.082+0000] {logging_mixin.py:188} INFO -      - kubectl get events      → événements cluster
+[2026-04-13T08:11:52.082+0000] {logging_mixin.py:188} INFO -      - kubectl describe pod X  → détails d'un pod
+[2026-04-13T08:11:52.083+0000] {logging_mixin.py:188} INFO -   3️⃣ Niveau Application (observabilité) :
+[2026-04-13T08:11:52.084+0000] {logging_mixin.py:188} INFO -      - Prometheus + Grafana (métriques)
+[2026-04-13T08:11:52.084+0000] {logging_mixin.py:188} INFO -      - ELK/Loki (logs centralisés)
+[2026-04-13T08:11:52.084+0000] {logging_mixin.py:188} INFO -      - Jaeger/Tempo (tracing distribué)
+[2026-04-13T08:11:52.084+0000] {logging_mixin.py:188} INFO -   📊 Commandes kubectl utiles :
+[2026-04-13T08:11:52.085+0000] {logging_mixin.py:188} INFO -      $ kubectl get pods -n ***
+[2026-04-13T08:11:52.088+0000] {logging_mixin.py:188} INFO -        → Lister les pods Airflow
+[2026-04-13T08:11:52.088+0000] {logging_mixin.py:188} INFO -      $ kubectl logs <pod> -n ***
+[2026-04-13T08:11:52.088+0000] {logging_mixin.py:188} INFO -        → Voir les logs d'un pod
+[2026-04-13T08:11:52.089+0000] {logging_mixin.py:188} INFO -      $ kubectl describe pod <pod> -n ***
+[2026-04-13T08:11:52.089+0000] {logging_mixin.py:188} INFO -        → Détails d'un pod
+[2026-04-13T08:11:52.090+0000] {logging_mixin.py:188} INFO -      $ kubectl top pods -n ***
+[2026-04-13T08:11:52.090+0000] {logging_mixin.py:188} INFO -        → Consommation CPU/mémoire
+[2026-04-13T08:11:52.090+0000] {logging_mixin.py:188} INFO -      $ kubectl get events -n *** --sort-by=.lastTimestamp
+[2026-04-13T08:11:52.090+0000] {logging_mixin.py:188} INFO -        → Événements récents
+[2026-04-13T08:11:52.091+0000] {logging_mixin.py:188} INFO -      $ kubectl exec -it <pod> -- bash
+[2026-04-13T08:11:52.091+0000] {logging_mixin.py:188} INFO -        → Shell dans un pod
+[2026-04-13T08:11:52.091+0000] {logging_mixin.py:188} INFO - ============================================================
+[2026-04-13T08:11:52.092+0000] {python.py:201} INFO - Done. Returned value was: {'monitoring_levels': ['***', 'kubernetes', 'application']}
+[2026-04-13T08:11:52.139+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=helm_monitoring_k8s, task_id=expliquer_monitoring, execution_date=20260413T081150, start_date=20260413T081151, end_date=20260413T081152
+[2026-04-13T08:11:52.153+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-04-13T08:11:52.179+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,819 @@
+[2026-04-13T08:07:24.391+0000] {processor.py:161} INFO - Started process (PID=191) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:07:24.393+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:07:24.394+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:07:24.393+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:07:24.423+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:07:24.436+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:07:24.436+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:07:24.450+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:07:24.450+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:07:24.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.093 seconds
+[2026-04-13T08:07:55.264+0000] {processor.py:161} INFO - Started process (PID=253) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:07:55.264+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:07:55.265+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:07:55.265+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:07:55.306+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:07:55.428+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:07:55.428+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:07:55.439+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:07:55.438+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:07:55.457+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.197 seconds
+[2026-04-13T08:08:26.015+0000] {processor.py:161} INFO - Started process (PID=289) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:08:26.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:08:26.017+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:08:26.016+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:08:26.028+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:08:26.053+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:08:26.053+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:08:26.076+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:08:26.075+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:08:26.096+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.085 seconds
+[2026-04-13T08:08:56.501+0000] {processor.py:161} INFO - Started process (PID=325) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:08:56.502+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:08:56.503+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:08:56.503+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:08:56.516+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:08:56.544+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:08:56.544+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:08:56.556+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:08:56.556+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:08:56.572+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.075 seconds
+[2026-04-13T08:09:26.997+0000] {processor.py:161} INFO - Started process (PID=361) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:09:26.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:09:26.999+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:09:26.999+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:09:27.012+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:09:27.037+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:09:27.037+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:09:27.050+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:09:27.050+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:09:27.066+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.072 seconds
+[2026-04-13T08:09:57.482+0000] {processor.py:161} INFO - Started process (PID=397) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:09:57.482+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:09:57.483+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:09:57.483+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:09:57.495+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:09:57.521+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:09:57.521+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:09:57.533+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:09:57.533+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:09:57.549+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.071 seconds
+[2026-04-13T08:10:28.346+0000] {processor.py:161} INFO - Started process (PID=433) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:10:28.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:10:28.349+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:10:28.349+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:10:28.408+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:10:28.482+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:10:28.482+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:10:28.507+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:10:28.503+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:10:28.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.198 seconds
+[2026-04-13T08:10:58.961+0000] {processor.py:161} INFO - Started process (PID=463) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:10:58.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:10:58.963+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:10:58.963+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:10:59.000+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:10:59.056+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:10:59.056+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:10:59.071+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:10:59.071+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:10:59.088+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.130 seconds
+[2026-04-13T08:11:29.721+0000] {processor.py:161} INFO - Started process (PID=499) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:11:29.724+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:11:29.728+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:11:29.724+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:11:29.761+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:11:29.820+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:11:29.819+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:11:29.837+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:11:29.836+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:11:29.855+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.151 seconds
+[2026-04-13T08:12:00.407+0000] {processor.py:161} INFO - Started process (PID=561) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:12:00.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:12:00.408+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:12:00.408+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:12:00.420+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:12:00.446+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:12:00.445+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:12:00.458+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:12:00.458+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:12:00.474+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.071 seconds
+[2026-04-13T08:12:30.888+0000] {processor.py:161} INFO - Started process (PID=597) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:12:30.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:12:30.889+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:12:30.889+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:12:30.905+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:12:30.933+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:12:30.932+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:12:30.947+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:12:30.947+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:12:30.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.080 seconds
+[2026-04-13T08:13:01.431+0000] {processor.py:161} INFO - Started process (PID=635) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:13:01.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:13:01.433+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:13:01.433+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:13:01.445+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:13:01.471+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:13:01.471+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:13:01.484+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:13:01.484+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:13:01.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.085 seconds
+[2026-04-13T08:13:31.956+0000] {processor.py:161} INFO - Started process (PID=671) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:13:31.956+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:13:31.957+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:13:31.957+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:13:31.969+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:13:31.995+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:13:31.995+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:13:32.007+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:13:32.007+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:13:32.024+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.072 seconds
+[2026-04-13T08:14:02.515+0000] {processor.py:161} INFO - Started process (PID=709) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:14:02.516+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:14:02.517+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:14:02.516+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:14:02.528+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:14:02.553+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:14:02.553+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:14:02.566+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:14:02.566+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:14:02.582+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.071 seconds
+[2026-04-13T08:14:33.031+0000] {processor.py:161} INFO - Started process (PID=745) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:14:33.032+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:14:33.033+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:14:33.032+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:14:33.044+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:14:33.071+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:14:33.071+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:14:33.083+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:14:33.083+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:14:33.100+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.073 seconds
+[2026-04-13T08:15:03.544+0000] {processor.py:161} INFO - Started process (PID=782) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:15:03.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:15:03.545+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:15:03.545+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:15:03.557+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:15:03.585+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:15:03.585+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:15:03.600+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:15:03.599+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:15:03.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.077 seconds
+[2026-04-13T08:15:34.092+0000] {processor.py:161} INFO - Started process (PID=818) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:15:34.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:15:34.094+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:15:34.093+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:15:34.106+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:15:34.131+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:15:34.131+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:15:34.143+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:15:34.143+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:15:34.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.072 seconds
+[2026-04-13T08:16:04.620+0000] {processor.py:161} INFO - Started process (PID=854) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:16:04.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:16:04.622+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:16:04.622+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:16:04.634+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:16:04.688+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:16:04.688+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:16:04.708+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:16:04.705+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:16:04.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.138 seconds
+[2026-04-13T08:16:35.243+0000] {processor.py:161} INFO - Started process (PID=890) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:16:35.249+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:16:35.250+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:16:35.250+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:16:35.277+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:16:35.317+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:16:35.316+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:16:35.330+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:16:35.330+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:16:35.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.111 seconds
+[2026-04-13T08:17:05.893+0000] {processor.py:161} INFO - Started process (PID=926) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:17:05.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:17:05.895+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:17:05.895+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:17:05.908+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:17:05.934+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:17:05.934+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:17:05.947+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:17:05.946+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:17:05.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.073 seconds
+[2026-04-13T08:17:36.392+0000] {processor.py:161} INFO - Started process (PID=962) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:17:36.392+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:17:36.393+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:17:36.393+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:17:36.405+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:17:36.432+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:17:36.432+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:17:36.443+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:17:36.443+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:17:36.461+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.073 seconds
+[2026-04-13T08:18:06.914+0000] {processor.py:161} INFO - Started process (PID=998) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:18:06.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:18:06.916+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:18:06.916+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:18:06.927+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:18:06.958+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:18:06.958+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:18:06.971+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:18:06.971+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:18:06.987+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.077 seconds
+[2026-04-13T08:18:37.399+0000] {processor.py:161} INFO - Started process (PID=1034) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:18:37.400+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:18:37.401+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:18:37.401+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:18:37.413+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:18:37.438+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:18:37.438+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:18:37.451+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:18:37.450+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:18:37.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.071 seconds
+[2026-04-13T08:19:07.894+0000] {processor.py:161} INFO - Started process (PID=1070) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:19:07.895+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:19:07.896+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:19:07.896+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:19:07.908+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:19:07.940+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:19:07.940+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:19:07.955+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:19:07.954+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:19:07.981+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.090 seconds
+[2026-04-13T08:19:38.464+0000] {processor.py:161} INFO - Started process (PID=1106) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:19:38.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:19:38.466+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:19:38.465+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:19:38.477+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:19:38.502+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:19:38.502+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:19:38.514+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:19:38.514+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:19:38.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.070 seconds
+[2026-04-13T08:20:08.987+0000] {processor.py:161} INFO - Started process (PID=1141) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:20:08.990+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:20:08.992+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:20:08.992+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:20:09.007+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:20:09.049+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:20:09.049+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:20:09.062+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:20:09.062+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:20:09.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.114 seconds
+[2026-04-13T08:20:39.508+0000] {processor.py:161} INFO - Started process (PID=1177) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:20:39.509+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:20:39.510+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:20:39.509+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:20:39.520+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:20:39.546+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:20:39.546+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:20:39.559+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:20:39.558+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:20:39.575+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.070 seconds
+[2026-04-13T08:21:10.060+0000] {processor.py:161} INFO - Started process (PID=1213) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:21:10.062+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:21:10.063+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:21:10.063+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:21:10.077+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:21:10.104+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:21:10.104+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:21:10.116+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:21:10.116+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:21:10.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.081 seconds
+[2026-04-13T08:21:40.921+0000] {processor.py:161} INFO - Started process (PID=1249) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:21:40.924+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:21:40.925+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:21:40.924+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:21:40.945+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:21:40.998+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:21:40.998+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:21:41.011+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:21:41.011+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:21:41.045+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.127 seconds
+[2026-04-13T08:22:11.736+0000] {processor.py:161} INFO - Started process (PID=1285) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:22:11.737+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:22:11.738+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:22:11.737+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:22:11.760+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:22:11.791+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:22:11.791+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:22:11.817+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:22:11.816+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:22:11.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.130 seconds
+[2026-04-13T08:22:42.273+0000] {processor.py:161} INFO - Started process (PID=1315) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:22:42.274+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:22:42.275+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:22:42.275+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:22:42.287+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:22:42.313+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:22:42.313+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:22:42.325+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:22:42.325+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:22:42.342+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.072 seconds
+[2026-04-13T08:23:12.774+0000] {processor.py:161} INFO - Started process (PID=1351) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:23:12.774+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:23:12.775+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:23:12.775+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:23:12.787+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:23:12.814+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:23:12.813+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:23:12.826+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:23:12.826+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:23:12.842+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.072 seconds
+[2026-04-13T08:23:43.303+0000] {processor.py:161} INFO - Started process (PID=1387) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:23:43.304+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:23:43.305+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:23:43.304+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:23:43.317+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:23:43.373+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:23:43.373+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:23:43.386+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:23:43.386+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:23:43.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.103 seconds
+[2026-04-13T08:24:13.843+0000] {processor.py:161} INFO - Started process (PID=1423) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:24:13.844+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:24:13.845+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:24:13.844+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:24:13.856+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:24:13.881+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:24:13.881+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:24:13.895+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:24:13.894+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:24:13.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.071 seconds
+[2026-04-13T08:24:44.346+0000] {processor.py:161} INFO - Started process (PID=1459) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:24:44.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:24:44.348+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:24:44.348+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:24:44.360+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:24:44.389+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:24:44.389+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:24:44.409+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:24:44.409+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:24:44.439+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.096 seconds
+[2026-04-13T08:25:15.001+0000] {processor.py:161} INFO - Started process (PID=1495) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:25:15.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:25:15.003+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:25:15.002+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:25:15.015+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:25:15.040+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:25:15.040+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:25:15.055+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:25:15.055+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:25:15.083+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.085 seconds
+[2026-04-13T08:25:45.570+0000] {processor.py:161} INFO - Started process (PID=1531) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:25:45.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:25:45.572+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:25:45.571+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:25:45.583+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:25:45.615+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:25:45.614+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:25:45.627+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:25:45.626+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:25:45.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.077 seconds
+[2026-04-13T08:26:16.082+0000] {processor.py:161} INFO - Started process (PID=1567) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:26:16.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:26:16.083+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:26:16.083+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:26:16.101+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:26:16.126+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:26:16.126+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:26:16.139+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:26:16.139+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:26:16.156+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.078 seconds
+[2026-04-13T08:26:46.617+0000] {processor.py:161} INFO - Started process (PID=1603) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:26:46.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:26:46.619+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:26:46.618+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:26:46.631+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:26:46.658+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:26:46.658+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:26:46.671+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:26:46.670+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:26:46.687+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.074 seconds
+[2026-04-13T08:27:17.274+0000] {processor.py:161} INFO - Started process (PID=1639) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:27:17.275+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:27:17.276+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:27:17.276+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:27:17.288+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:27:17.316+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:27:17.315+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:27:17.328+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:27:17.328+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:27:17.344+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.074 seconds
+[2026-04-13T08:27:47.833+0000] {processor.py:161} INFO - Started process (PID=1675) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:27:47.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:27:47.835+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:27:47.834+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:27:47.847+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:27:47.875+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:27:47.875+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:27:47.888+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:27:47.888+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:27:47.905+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.076 seconds
+[2026-04-13T08:28:18.475+0000] {processor.py:161} INFO - Started process (PID=1711) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:28:18.476+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:28:18.477+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:28:18.477+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:28:18.489+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:28:18.515+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:28:18.515+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:28:18.527+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:28:18.527+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:28:18.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.072 seconds
+[2026-04-13T08:28:49.043+0000] {processor.py:161} INFO - Started process (PID=1747) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:28:49.044+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:28:49.045+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:28:49.045+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:28:49.057+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:28:49.084+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:28:49.084+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:28:49.097+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:28:49.096+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:28:49.114+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.074 seconds
+[2026-04-13T08:29:19.621+0000] {processor.py:161} INFO - Started process (PID=1783) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:29:19.622+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:29:19.623+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:29:19.623+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:29:19.635+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:29:19.662+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:29:19.662+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:29:19.677+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:29:19.677+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:29:19.699+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.081 seconds
+[2026-04-13T08:29:50.232+0000] {processor.py:161} INFO - Started process (PID=1819) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:29:50.233+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:29:50.234+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:29:50.234+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:29:50.246+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:29:50.276+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:29:50.276+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:29:50.292+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:29:50.291+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:29:50.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.091 seconds
+[2026-04-13T08:30:20.840+0000] {processor.py:161} INFO - Started process (PID=1855) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:30:20.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:30:20.842+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:30:20.841+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:30:20.854+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:30:20.883+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:30:20.882+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:30:20.898+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:30:20.898+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:30:20.917+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.081 seconds
+[2026-04-13T08:30:51.441+0000] {processor.py:161} INFO - Started process (PID=1891) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:30:51.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:30:51.443+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:30:51.442+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:30:51.455+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:30:51.526+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:30:51.525+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:30:51.558+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:30:51.553+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:30:51.583+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.146 seconds
+[2026-04-13T08:31:22.269+0000] {processor.py:161} INFO - Started process (PID=1927) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:31:22.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:31:22.271+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:31:22.270+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:31:22.283+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:31:22.311+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:31:22.311+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:31:22.324+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:31:22.324+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:31:22.344+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.079 seconds
+[2026-04-13T08:31:52.909+0000] {processor.py:161} INFO - Started process (PID=1963) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:31:52.910+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:31:52.911+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:31:52.910+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:31:52.929+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:31:52.962+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:31:52.962+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:31:52.978+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:31:52.977+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:31:52.998+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.094 seconds
+[2026-04-13T08:32:23.598+0000] {processor.py:161} INFO - Started process (PID=1999) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:32:23.599+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:32:23.600+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:32:23.600+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:32:23.612+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:32:23.641+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:32:23.640+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:32:23.655+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:32:23.655+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:32:23.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.084 seconds
+[2026-04-13T08:32:54.212+0000] {processor.py:161} INFO - Started process (PID=2035) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:32:54.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:32:54.214+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:32:54.213+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:32:54.226+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:32:54.272+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:32:54.272+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:32:54.291+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:32:54.291+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:32:54.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.102 seconds
+[2026-04-13T08:33:25.054+0000] {processor.py:161} INFO - Started process (PID=2071) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:33:25.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:33:25.058+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:33:25.055+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:33:25.082+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:33:25.146+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:33:25.146+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:33:25.172+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:33:25.170+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:33:25.202+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.155 seconds
+[2026-04-13T08:33:56.052+0000] {processor.py:161} INFO - Started process (PID=2108) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:33:56.053+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:33:56.054+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:33:56.054+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:33:56.065+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:33:56.102+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:33:56.102+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:33:56.113+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:33:56.113+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:33:56.150+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.104 seconds
+[2026-04-13T08:34:26.682+0000] {processor.py:161} INFO - Started process (PID=2182) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:34:26.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:34:26.684+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:34:26.684+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:34:26.695+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:34:26.723+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:34:26.723+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:34:26.736+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:34:26.736+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:34:26.754+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.075 seconds
+[2026-04-13T08:34:57.260+0000] {processor.py:161} INFO - Started process (PID=2218) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:34:57.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:34:57.262+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:34:57.262+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:34:57.275+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:34:57.306+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:34:57.306+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:34:57.319+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:34:57.319+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:34:57.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.080 seconds
+[2026-04-13T08:35:27.929+0000] {processor.py:161} INFO - Started process (PID=2254) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:35:27.930+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:35:27.931+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:35:27.931+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:35:27.943+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:35:27.975+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:35:27.975+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:35:27.990+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:35:27.990+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:35:28.013+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.088 seconds
+[2026-04-13T08:35:58.622+0000] {processor.py:161} INFO - Started process (PID=2289) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:35:58.623+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:35:58.624+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:35:58.624+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:35:58.636+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:35:58.673+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:35:58.673+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:35:58.686+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:35:58.686+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:35:58.703+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.085 seconds
+[2026-04-13T08:36:29.253+0000] {processor.py:161} INFO - Started process (PID=2325) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:36:29.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:36:29.257+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:36:29.256+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:36:29.290+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:36:29.325+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:36:29.325+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:36:29.347+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:36:29.347+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:36:29.364+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.125 seconds
+[2026-04-13T08:37:00.095+0000] {processor.py:161} INFO - Started process (PID=2361) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:37:00.098+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:37:00.099+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:37:00.099+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:37:00.114+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:37:00.142+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:37:00.142+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:37:00.156+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:37:00.155+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:37:00.174+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.083 seconds
+[2026-04-13T08:37:30.720+0000] {processor.py:161} INFO - Started process (PID=2397) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:37:30.720+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:37:30.721+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:37:30.721+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:37:30.733+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:37:30.764+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:37:30.764+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:37:30.777+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:37:30.777+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:37:30.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.081 seconds
+[2026-04-13T08:38:01.398+0000] {processor.py:161} INFO - Started process (PID=2432) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:38:01.399+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:38:01.400+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:38:01.399+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:38:01.411+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:38:01.439+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:38:01.439+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:38:01.452+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:38:01.452+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:38:01.473+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.079 seconds
+[2026-04-13T08:38:32.165+0000] {processor.py:161} INFO - Started process (PID=2468) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:38:32.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:38:32.167+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:38:32.166+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:38:32.178+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:38:32.206+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:38:32.206+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:38:32.219+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:38:32.219+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:38:32.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.088 seconds
+[2026-04-13T08:39:02.974+0000] {processor.py:161} INFO - Started process (PID=2504) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:39:02.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:39:02.977+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:39:02.977+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:39:02.991+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:39:03.017+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:39:03.017+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:39:03.030+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:39:03.030+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:39:03.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.082 seconds
+[2026-04-13T08:39:33.821+0000] {processor.py:161} INFO - Started process (PID=2542) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:39:33.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:39:33.823+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:39:33.823+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:39:33.835+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:39:33.861+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:39:33.861+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:39:33.876+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:39:33.876+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:39:33.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.091 seconds
+[2026-04-13T08:40:04.404+0000] {processor.py:161} INFO - Started process (PID=2578) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:40:04.404+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:40:04.405+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:40:04.405+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:40:04.414+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:40:04.435+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:40:04.434+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:40:04.444+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:40:04.444+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:40:04.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.185 seconds
+[2026-04-13T08:40:35.295+0000] {processor.py:161} INFO - Started process (PID=2612) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:40:35.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:40:35.300+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:40:35.299+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:40:35.313+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:40:35.345+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:40:35.345+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:40:35.358+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:40:35.357+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:40:35.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.086 seconds
+[2026-04-13T08:41:05.972+0000] {processor.py:161} INFO - Started process (PID=2648) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:41:05.973+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:41:05.974+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:41:05.973+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:41:05.989+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:41:06.019+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:41:06.019+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:41:06.036+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:41:06.035+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:41:06.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.091 seconds
+[2026-04-13T08:41:36.722+0000] {processor.py:161} INFO - Started process (PID=2683) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:41:36.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:41:36.724+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:41:36.724+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:41:36.736+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:41:36.764+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:41:36.764+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:41:36.777+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:41:36.777+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:41:36.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.074 seconds
+[2026-04-13T08:42:07.310+0000] {processor.py:161} INFO - Started process (PID=2719) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:42:07.311+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:42:07.312+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:42:07.311+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:42:07.342+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:42:07.381+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:42:07.380+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:42:07.395+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:42:07.394+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:42:07.412+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.106 seconds
+[2026-04-13T08:42:37.941+0000] {processor.py:161} INFO - Started process (PID=2757) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:42:37.943+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:42:37.944+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:42:37.943+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:42:37.956+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:42:37.978+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:42:37.978+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:42:37.990+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:42:37.990+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:42:38.003+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.066 seconds
+[2026-04-13T08:43:08.831+0000] {processor.py:161} INFO - Started process (PID=2793) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:43:08.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:43:08.833+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:43:08.832+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:43:08.845+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:43:08.896+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:43:08.896+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:43:08.910+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:43:08.910+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:43:08.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.116 seconds
+[2026-04-13T08:43:39.531+0000] {processor.py:161} INFO - Started process (PID=2827) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:43:39.533+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:43:39.534+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:43:39.533+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:43:39.547+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:43:39.576+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:43:39.576+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:43:39.590+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:43:39.589+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:43:39.614+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.090 seconds
+[2026-04-13T08:44:10.350+0000] {processor.py:161} INFO - Started process (PID=2866) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:44:10.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:44:10.353+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:44:10.352+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:44:10.375+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:44:10.440+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:44:10.439+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:44:10.461+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:44:10.461+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:44:10.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.199 seconds
+[2026-04-13T08:44:41.274+0000] {processor.py:161} INFO - Started process (PID=2900) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:44:41.275+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:44:41.276+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:44:41.276+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:44:41.298+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:44:41.327+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:44:41.327+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:44:41.343+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:44:41.342+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:44:41.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.096 seconds
+[2026-04-13T08:45:11.935+0000] {processor.py:161} INFO - Started process (PID=2930) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:45:11.936+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:45:11.937+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:45:11.936+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:45:11.949+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:45:11.976+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:45:11.976+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:45:11.988+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:45:11.988+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:45:12.004+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.075 seconds
+[2026-04-13T08:45:42.474+0000] {processor.py:161} INFO - Started process (PID=2965) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:45:42.475+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:45:42.476+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:45:42.475+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:45:42.488+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:45:42.517+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:45:42.516+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:45:42.530+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:45:42.530+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:45:42.556+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.086 seconds
+[2026-04-13T08:46:13.122+0000] {processor.py:161} INFO - Started process (PID=3001) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:46:13.123+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:46:13.124+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:46:13.123+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:46:13.136+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:46:13.167+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:46:13.167+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:46:13.188+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:46:13.188+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:46:13.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.102 seconds
+[2026-04-13T08:46:43.743+0000] {processor.py:161} INFO - Started process (PID=3037) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:46:43.744+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:46:43.745+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:46:43.745+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:46:43.758+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:46:43.794+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:46:43.794+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:46:43.809+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:46:43.809+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:46:43.826+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.087 seconds
+[2026-04-13T08:47:14.332+0000] {processor.py:161} INFO - Started process (PID=3075) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:47:14.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:47:14.335+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:47:14.334+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:47:14.346+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:47:14.375+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:47:14.374+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:47:14.391+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:47:14.390+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:47:14.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.101 seconds
+[2026-04-13T08:47:44.879+0000] {processor.py:161} INFO - Started process (PID=3109) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:47:44.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:47:44.882+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:47:44.882+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:47:44.895+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:47:44.921+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:47:44.921+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:47:44.933+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:47:44.933+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:47:44.948+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.077 seconds
+[2026-04-13T08:48:15.514+0000] {processor.py:161} INFO - Started process (PID=3145) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:48:15.515+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:48:15.516+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:48:15.515+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:48:15.531+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:48:15.558+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:48:15.558+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:48:15.571+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:48:15.570+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:48:15.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.088 seconds
+[2026-04-13T08:48:46.061+0000] {processor.py:161} INFO - Started process (PID=3181) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:48:46.063+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:48:46.065+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:48:46.065+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:48:46.084+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:48:46.111+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:48:46.111+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:48:46.124+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:48:46.124+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:48:46.140+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.083 seconds
+[2026-04-13T08:49:16.623+0000] {processor.py:161} INFO - Started process (PID=3217) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:49:16.624+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:49:16.625+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:49:16.625+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:49:16.636+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:49:16.662+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:49:16.662+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:49:16.675+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:49:16.675+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:49:16.697+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.078 seconds
+[2026-04-13T08:49:47.197+0000] {processor.py:161} INFO - Started process (PID=3253) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:49:47.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:49:47.199+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:49:47.199+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:49:47.211+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:49:47.244+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:49:47.243+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:49:47.258+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:49:47.257+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:49:47.292+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.099 seconds
+[2026-04-13T08:50:17.825+0000] {processor.py:161} INFO - Started process (PID=3291) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:50:17.826+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:50:17.827+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:50:17.826+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:50:17.835+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:50:17.855+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:50:17.855+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:50:17.865+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:50:17.865+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:50:17.883+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.062 seconds
+[2026-04-13T08:50:48.354+0000] {processor.py:161} INFO - Started process (PID=3325) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:50:48.355+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:50:48.356+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:50:48.355+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:50:48.368+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:50:48.399+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:50:48.398+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:50:48.417+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:50:48.414+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:50:48.437+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.089 seconds
+[2026-04-13T08:51:18.885+0000] {processor.py:161} INFO - Started process (PID=3361) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:51:18.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:51:18.887+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:51:18.886+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:51:18.899+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:51:18.934+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:51:18.934+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:51:18.949+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:51:18.949+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:51:18.976+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.095 seconds
+[2026-04-13T08:51:49.522+0000] {processor.py:161} INFO - Started process (PID=3397) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:51:49.523+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:51:49.524+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:51:49.523+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:51:49.535+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:51:49.562+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:51:49.562+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:51:49.577+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:51:49.576+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:51:49.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.079 seconds
+[2026-04-13T08:52:20.055+0000] {processor.py:161} INFO - Started process (PID=3433) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:52:20.056+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:52:20.057+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:52:20.057+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:52:20.071+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:52:20.106+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:52:20.105+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:52:20.119+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:52:20.119+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:52:20.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.084 seconds
+[2026-04-13T08:52:50.607+0000] {processor.py:161} INFO - Started process (PID=3469) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:52:50.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:52:50.609+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:52:50.609+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:52:50.623+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:52:50.651+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:52:50.651+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:52:50.665+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:52:50.665+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:52:50.682+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.079 seconds
+[2026-04-13T08:53:21.223+0000] {processor.py:161} INFO - Started process (PID=3507) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:53:21.224+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:53:21.225+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:53:21.225+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:53:21.236+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:53:21.256+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:53:21.256+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:53:21.267+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:53:21.266+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:53:21.283+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.062 seconds
+[2026-04-13T08:53:51.794+0000] {processor.py:161} INFO - Started process (PID=3541) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:53:51.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:53:51.796+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:53:51.795+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:53:51.817+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:53:51.853+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:53:51.853+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:53:51.866+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:53:51.866+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:53:51.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.095 seconds
+[2026-04-13T08:54:22.413+0000] {processor.py:161} INFO - Started process (PID=3577) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:54:22.414+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:54:22.415+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:54:22.414+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:54:22.426+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:54:22.454+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:54:22.454+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:54:22.467+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:54:22.467+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:54:22.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.077 seconds
+[2026-04-13T08:54:53.264+0000] {processor.py:161} INFO - Started process (PID=3615) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:54:53.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:54:53.266+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:54:53.266+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:54:53.278+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:54:53.307+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:54:53.306+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:54:53.324+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:54:53.324+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:54:53.346+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.085 seconds
+[2026-04-13T08:55:24.066+0000] {processor.py:161} INFO - Started process (PID=3649) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:55:24.067+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:55:24.070+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:55:24.070+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:55:24.109+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:55:24.173+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:55:24.173+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:55:24.205+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:55:24.204+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:55:24.240+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.183 seconds
+[2026-04-13T08:55:54.814+0000] {processor.py:161} INFO - Started process (PID=3679) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:55:54.815+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:55:54.816+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:55:54.816+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:55:54.828+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:55:54.895+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:55:54.895+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:55:54.926+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:55:54.926+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:55:54.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.133 seconds
+[2026-04-13T08:56:25.366+0000] {processor.py:161} INFO - Started process (PID=3715) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:56:25.368+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:56:25.369+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:56:25.368+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:56:25.383+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:56:25.414+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:56:25.414+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:56:25.434+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:56:25.434+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:56:25.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.088 seconds
+[2026-04-13T08:56:55.886+0000] {processor.py:161} INFO - Started process (PID=3750) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:56:55.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:56:55.888+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:56:55.888+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:56:55.900+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:56:55.928+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:56:55.928+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:56:55.940+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:56:55.940+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:56:55.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.081 seconds
+[2026-04-13T08:57:26.453+0000] {processor.py:161} INFO - Started process (PID=3786) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:57:26.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:57:26.457+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:57:26.455+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:57:26.470+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:57:26.500+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:57:26.500+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:57:26.513+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:57:26.513+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:57:26.544+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.094 seconds
+[2026-04-13T08:57:57.059+0000] {processor.py:161} INFO - Started process (PID=3822) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:57:57.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:57:57.061+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:57:57.060+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:57:57.072+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:57:57.110+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:57:57.110+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:57:57.123+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:57:57.123+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:57:57.143+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.088 seconds
+[2026-04-13T08:58:27.591+0000] {processor.py:161} INFO - Started process (PID=3858) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:58:27.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:58:27.592+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:58:27.592+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:58:27.605+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:58:27.633+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:58:27.633+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:58:27.646+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:58:27.645+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:58:27.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.078 seconds
+[2026-04-13T08:58:58.149+0000] {processor.py:161} INFO - Started process (PID=3894) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:58:58.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:58:58.150+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:58:58.150+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:58:58.162+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:58:58.193+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:58:58.193+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:58:58.206+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:58:58.206+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:58:58.224+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.079 seconds
+[2026-04-13T08:59:28.674+0000] {processor.py:161} INFO - Started process (PID=3930) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:59:28.675+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:59:28.676+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:59:28.676+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:59:28.689+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:59:28.730+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:59:28.730+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:59:28.752+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:59:28.752+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:59:28.782+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.111 seconds
+[2026-04-13T08:59:59.272+0000] {processor.py:161} INFO - Started process (PID=3966) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:59:59.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T08:59:59.275+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:59:59.274+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:59:59.287+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T08:59:59.315+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:59:59.314+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T08:59:59.328+0000] {logging_mixin.py:188} INFO - [2026-04-13T08:59:59.327+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T08:59:59.344+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.076 seconds
+[2026-04-13T09:00:29.844+0000] {processor.py:161} INFO - Started process (PID=4002) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:00:29.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T09:00:29.852+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:00:29.851+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:00:29.889+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:00:29.936+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:00:29.936+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T09:00:29.950+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:00:29.949+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T09:00:29.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.126 seconds
+[2026-04-13T09:01:00.446+0000] {processor.py:161} INFO - Started process (PID=4038) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:01:00.447+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T09:01:00.448+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:01:00.448+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:01:00.459+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:01:00.499+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:01:00.499+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T09:01:00.533+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:01:00.532+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T09:01:00.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.120 seconds
+[2026-04-13T09:01:31.062+0000] {processor.py:161} INFO - Started process (PID=4074) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:01:31.063+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T09:01:31.064+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:01:31.064+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:01:31.083+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:01:31.118+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:01:31.118+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T09:01:31.132+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:01:31.132+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T09:01:31.148+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.090 seconds
+[2026-04-13T09:02:01.600+0000] {processor.py:161} INFO - Started process (PID=4110) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:02:01.603+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T09:02:01.604+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:02:01.604+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:02:01.616+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:02:01.643+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:02:01.642+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T09:02:01.657+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:02:01.657+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T09:02:01.677+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.085 seconds
+[2026-04-13T09:02:32.167+0000] {processor.py:161} INFO - Started process (PID=4146) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:02:32.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T09:02:32.169+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:02:32.169+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:02:32.183+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:02:32.210+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:02:32.209+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T09:02:32.224+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:02:32.224+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T09:02:32.241+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.078 seconds
+[2026-04-13T09:03:02.696+0000] {processor.py:161} INFO - Started process (PID=4182) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:03:02.698+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T09:03:02.699+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:03:02.699+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:03:02.718+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:03:02.749+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:03:02.748+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T09:03:02.771+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:03:02.771+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T09:03:02.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.142 seconds
+[2026-04-13T09:03:33.336+0000] {processor.py:161} INFO - Started process (PID=4218) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:03:33.340+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T09:03:33.341+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:03:33.340+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:03:33.353+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:03:33.382+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:03:33.381+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T09:03:33.401+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:03:33.401+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T09:03:33.418+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.086 seconds
+[2026-04-13T09:04:03.968+0000] {processor.py:161} INFO - Started process (PID=4254) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:04:03.968+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T09:04:03.969+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:04:03.969+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:04:03.981+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:04:04.011+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:04:04.011+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T09:04:04.024+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:04:04.024+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T09:04:04.042+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.078 seconds
+[2026-04-13T09:04:34.588+0000] {processor.py:161} INFO - Started process (PID=4290) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:04:34.591+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T09:04:34.596+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:04:34.596+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:04:34.619+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:04:34.692+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:04:34.691+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T09:04:34.722+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:04:34.721+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T09:04:34.744+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.166 seconds
+[2026-04-13T09:05:05.314+0000] {processor.py:161} INFO - Started process (PID=4326) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:05:05.315+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T09:05:05.316+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:05:05.316+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:05:05.328+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:05:05.361+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:05:05.361+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T09:05:05.387+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:05:05.386+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T09:05:05.407+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.099 seconds
+[2026-04-13T09:05:36.209+0000] {processor.py:161} INFO - Started process (PID=4362) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:05:36.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T09:05:36.213+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:05:36.213+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:05:36.239+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:05:36.299+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:05:36.299+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T09:05:36.328+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:05:36.326+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T09:05:36.368+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.167 seconds
+[2026-04-13T09:06:07.036+0000] {processor.py:161} INFO - Started process (PID=4392) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:06:07.037+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T09:06:07.038+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:06:07.037+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:06:07.050+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:06:07.079+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:06:07.078+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T09:06:07.092+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:06:07.091+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T09:06:07.113+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.081 seconds
+[2026-04-13T09:06:37.760+0000] {processor.py:161} INFO - Started process (PID=4428) to work on /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:06:37.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_helm_monitoring.py for tasks to queue
+[2026-04-13T09:06:37.762+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:06:37.762+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:06:37.774+0000] {processor.py:840} INFO - DAG(s) 'helm_monitoring_k8s' retrieved from /opt/airflow/dags/dag_helm_monitoring.py
+[2026-04-13T09:06:37.803+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:06:37.802+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-04-13T09:06:37.823+0000] {logging_mixin.py:188} INFO - [2026-04-13T09:06:37.823+0000] {dag.py:3823} INFO - Setting next_dagrun for helm_monitoring_k8s to None, run_after=None
+[2026-04-13T09:06:37.883+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_helm_monitoring.py took 0.127 seconds

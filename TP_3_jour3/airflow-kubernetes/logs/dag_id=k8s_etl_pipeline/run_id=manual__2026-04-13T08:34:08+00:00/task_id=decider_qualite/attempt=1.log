@@ -1,0 +1,18 @@
+[2026-04-13T08:34:12.999+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: k8s_etl_pipeline.decider_qualite manual__2026-04-13T08:34:08+00:00 [queued]>
+[2026-04-13T08:34:13.005+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: k8s_etl_pipeline.decider_qualite manual__2026-04-13T08:34:08+00:00 [queued]>
+[2026-04-13T08:34:13.005+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2026-04-13T08:34:13.014+0000] {taskinstance.py:2191} INFO - Executing <Task(BranchPythonOperator): decider_qualite> on 2026-04-13 08:34:08+00:00
+[2026-04-13T08:34:13.018+0000] {standard_task_runner.py:60} INFO - Started process 2156 to run task
+[2026-04-13T08:34:13.022+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'k8s_etl_pipeline', 'decider_qualite', 'manual__2026-04-13T08:34:08+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/k8s_etl_pipeline_dag.py', '--cfg-path', '/tmp/tmp2lzifwmr']
+[2026-04-13T08:34:13.023+0000] {standard_task_runner.py:88} INFO - Job 23: Subtask decider_qualite
+[2026-04-13T08:34:13.054+0000] {task_command.py:423} INFO - Running <TaskInstance: k8s_etl_pipeline.decider_qualite manual__2026-04-13T08:34:08+00:00 [running]> on host b53220b8d790
+[2026-04-13T08:34:13.107+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mohamed' AIRFLOW_CTX_DAG_ID='k8s_etl_pipeline' AIRFLOW_CTX_TASK_ID='decider_qualite' AIRFLOW_CTX_EXECUTION_DATE='2026-04-13T08:34:08+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-04-13T08:34:08+00:00'
+[2026-04-13T08:34:13.114+0000] {logging_mixin.py:188} INFO -   Vérification qualité : 200 transactions, 308026.68 € CA
+[2026-04-13T08:34:13.115+0000] {logging_mixin.py:188} INFO -   ✅ Qualité OK → notification succès
+[2026-04-13T08:34:13.115+0000] {python.py:201} INFO - Done. Returned value was: notifier_succes
+[2026-04-13T08:34:13.115+0000] {branch.py:35} INFO - Branch into notifier_succes
+[2026-04-13T08:34:13.115+0000] {skipmixin.py:178} INFO - Following branch notifier_succes
+[2026-04-13T08:34:13.125+0000] {skipmixin.py:244} INFO - Skipping tasks [('notifier_alerte', -1)]
+[2026-04-13T08:34:13.150+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=k8s_etl_pipeline, task_id=decider_qualite, execution_date=20260413T083408, start_date=20260413T083412, end_date=20260413T083413
+[2026-04-13T08:34:13.194+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-04-13T08:34:13.216+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

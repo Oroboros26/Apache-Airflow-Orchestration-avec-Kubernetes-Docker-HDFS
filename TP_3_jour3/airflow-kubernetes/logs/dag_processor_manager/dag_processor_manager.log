@@ -1,0 +1,1548 @@
+[2026-04-13T08:07:23.748+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2026-04-13T08:07:23.749+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2026-04-13T08:07:23.750+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-04-13T08:07:23.750+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-13T08:07:23.753+0000] {manager.py:741} INFO - There are 6 files in /opt/airflow/dags
+[2026-04-13T08:07:23.935+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_helm_monitoring.py                               0           0
+/opt/airflow/dags/k8s_pod_operator_dag.py       176  0.13s             0           0
+/opt/airflow/dags/dag_executor_comparison.py                           0           0
+/opt/airflow/dags/k8s_etl_pipeline_dag.py       179  0.11s             0           0
+/opt/airflow/dags/dag_resource_management.py                           0           0
+/opt/airflow/dags/hello_kubernetes_dag.py                              0           0
+================================================================================
+[2026-04-13T08:07:54.761+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.13s           2026-04-13T08:07:24
+/opt/airflow/dags/k8s_pod_operator_dag.py       240  0.02s             1           0  0.59s           2026-04-13T08:07:24
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.17s           2026-04-13T08:07:24
+/opt/airflow/dags/k8s_etl_pipeline_dag.py       243  0.01s             1           0  0.37s           2026-04-13T08:07:24
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.12s           2026-04-13T08:07:24
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.16s           2026-04-13T08:07:24
+================================================================================
+[2026-04-13T08:08:24.800+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.22s           2026-04-13T08:07:55
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.50s           2026-04-13T08:07:55
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.23s           2026-04-13T08:07:55
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.46s           2026-04-13T08:07:55
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.25s           2026-04-13T08:07:55
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.19s           2026-04-13T08:07:55
+================================================================================
+[2026-04-13T08:08:55.253+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:08:26
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.28s           2026-04-13T08:08:26
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:08:26
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.11s           2026-04-13T08:08:25
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:08:26
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:08:25
+================================================================================
+[2026-04-13T08:09:25.748+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.10s           2026-04-13T08:08:56
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.28s           2026-04-13T08:08:56
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:08:56
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.11s           2026-04-13T08:08:56
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:08:56
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:08:56
+================================================================================
+[2026-04-13T08:09:56.232+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.09s           2026-04-13T08:09:27
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.27s           2026-04-13T08:09:27
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:09:27
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:09:26
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:09:27
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:09:26
+================================================================================
+[2026-04-13T08:10:26.723+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.09s           2026-04-13T08:09:57
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.28s           2026-04-13T08:09:57
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:09:57
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:09:57
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:09:57
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.09s           2026-04-13T08:09:57
+================================================================================
+[2026-04-13T08:10:56.792+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.27s           2026-04-13T08:10:28
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.54s           2026-04-13T08:10:28
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.18s           2026-04-13T08:10:28
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.24s           2026-04-13T08:10:27
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.14s           2026-04-13T08:10:28
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.40s           2026-04-13T08:10:28
+================================================================================
+[2026-04-13T08:11:27.272+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.16s           2026-04-13T08:10:59
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.31s           2026-04-13T08:10:59
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.12s           2026-04-13T08:10:59
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:10:58
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:10:59
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:10:58
+================================================================================
+[2026-04-13T08:11:58.140+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.20s           2026-04-13T08:11:29
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.62s           2026-04-13T08:11:29
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.11s           2026-04-13T08:11:30
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.13s           2026-04-13T08:11:29
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:11:30
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.21s           2026-04-13T08:11:29
+================================================================================
+[2026-04-13T08:12:24.593+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-13T08:12:24.597+0000] {manager.py:741} INFO - There are 6 files in /opt/airflow/dags
+[2026-04-13T08:12:28.629+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.09s           2026-04-13T08:12:00
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.30s           2026-04-13T08:12:00
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.16s           2026-04-13T08:12:00
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.11s           2026-04-13T08:12:00
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.12s           2026-04-13T08:12:00
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:12:00
+================================================================================
+[2026-04-13T08:12:59.132+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.10s           2026-04-13T08:12:30
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.29s           2026-04-13T08:12:30
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:12:31
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:12:30
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:12:31
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:12:30
+================================================================================
+[2026-04-13T08:13:29.686+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:13:01
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.33s           2026-04-13T08:13:01
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:13:01
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.16s           2026-04-13T08:13:01
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:13:01
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:13:01
+================================================================================
+[2026-04-13T08:14:00.262+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:13:32
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.30s           2026-04-13T08:13:31
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.16s           2026-04-13T08:13:32
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:13:31
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.13s           2026-04-13T08:13:32
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:13:31
+================================================================================
+[2026-04-13T08:14:30.772+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.09s           2026-04-13T08:14:02
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.28s           2026-04-13T08:14:02
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.12s           2026-04-13T08:14:02
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:14:02
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.10s           2026-04-13T08:14:02
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:14:02
+================================================================================
+[2026-04-13T08:15:01.276+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.09s           2026-04-13T08:14:33
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.28s           2026-04-13T08:14:33
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:14:33
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:14:32
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:14:33
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:14:33
+================================================================================
+[2026-04-13T08:15:31.839+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.10s           2026-04-13T08:15:03
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.36s           2026-04-13T08:15:03
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:15:03
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.13s           2026-04-13T08:15:03
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.10s           2026-04-13T08:15:03
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.09s           2026-04-13T08:15:03
+================================================================================
+[2026-04-13T08:16:02.366+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:15:34
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.28s           2026-04-13T08:15:34
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.13s           2026-04-13T08:15:34
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:15:33
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.12s           2026-04-13T08:15:34
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.09s           2026-04-13T08:15:34
+================================================================================
+[2026-04-13T08:16:32.913+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.16s           2026-04-13T08:16:04
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.30s           2026-04-13T08:16:04
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.13s           2026-04-13T08:16:04
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:16:04
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:16:04
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:16:04
+================================================================================
+[2026-04-13T08:17:03.539+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.18s           2026-04-13T08:16:35
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.42s           2026-04-13T08:16:35
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:16:35
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:16:35
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.10s           2026-04-13T08:16:35
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:16:35
+================================================================================
+[2026-04-13T08:17:25.075+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-13T08:17:25.078+0000] {manager.py:741} INFO - There are 6 files in /opt/airflow/dags
+[2026-04-13T08:17:34.118+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.10s           2026-04-13T08:17:05
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.35s           2026-04-13T08:17:05
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:17:06
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.22s           2026-04-13T08:17:05
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.07s           2026-04-13T08:17:06
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:17:05
+================================================================================
+[2026-04-13T08:18:04.640+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.10s           2026-04-13T08:17:36
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.32s           2026-04-13T08:17:36
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:17:36
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:17:36
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:17:36
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:17:36
+================================================================================
+[2026-04-13T08:18:35.139+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.10s           2026-04-13T08:18:07
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.28s           2026-04-13T08:18:06
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:18:07
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.14s           2026-04-13T08:18:06
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:18:07
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:18:06
+================================================================================
+[2026-04-13T08:19:05.634+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.09s           2026-04-13T08:18:37
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.29s           2026-04-13T08:18:37
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.09s           2026-04-13T08:18:37
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:18:37
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:18:37
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:18:37
+================================================================================
+[2026-04-13T08:19:36.171+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.12s           2026-04-13T08:19:07
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.30s           2026-04-13T08:19:07
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:19:08
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:19:07
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:19:08
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:19:07
+================================================================================
+[2026-04-13T08:20:06.703+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.09s           2026-04-13T08:19:38
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.30s           2026-04-13T08:19:38
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.09s           2026-04-13T08:19:38
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:19:38
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:19:38
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.09s           2026-04-13T08:19:38
+================================================================================
+[2026-04-13T08:20:37.235+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.15s           2026-04-13T08:20:09
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.32s           2026-04-13T08:20:09
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:20:09
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:20:08
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:20:09
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:20:08
+================================================================================
+[2026-04-13T08:21:07.735+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.09s           2026-04-13T08:20:39
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.28s           2026-04-13T08:20:39
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:20:39
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:20:39
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:20:39
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:20:39
+================================================================================
+[2026-04-13T08:21:38.315+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.12s           2026-04-13T08:21:10
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.36s           2026-04-13T08:21:10
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:21:10
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.15s           2026-04-13T08:21:09
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.10s           2026-04-13T08:21:10
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:21:10
+================================================================================
+[2026-04-13T08:22:09.264+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.18s           2026-04-13T08:21:41
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.65s           2026-04-13T08:21:40
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.15s           2026-04-13T08:21:41
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.24s           2026-04-13T08:21:40
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.14s           2026-04-13T08:21:41
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.26s           2026-04-13T08:21:40
+================================================================================
+[2026-04-13T08:22:25.954+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-13T08:22:25.956+0000] {manager.py:741} INFO - There are 6 files in /opt/airflow/dags
+[2026-04-13T08:22:40.018+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.17s           2026-04-13T08:22:11
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.48s           2026-04-13T08:22:11
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.13s           2026-04-13T08:22:11
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.21s           2026-04-13T08:22:11
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.12s           2026-04-13T08:22:12
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.18s           2026-04-13T08:22:11
+================================================================================
+[2026-04-13T08:23:10.514+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.09s           2026-04-13T08:22:42
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.28s           2026-04-13T08:22:42
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.09s           2026-04-13T08:22:42
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:22:42
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:22:42
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:22:42
+================================================================================
+[2026-04-13T08:23:41.015+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.09s           2026-04-13T08:23:12
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.29s           2026-04-13T08:23:12
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.09s           2026-04-13T08:23:12
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:23:12
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:23:12
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:23:12
+================================================================================
+[2026-04-13T08:24:11.574+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.12s           2026-04-13T08:23:43
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.35s           2026-04-13T08:23:43
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.09s           2026-04-13T08:23:43
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.15s           2026-04-13T08:23:43
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:23:43
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:23:43
+================================================================================
+[2026-04-13T08:24:42.072+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.09s           2026-04-13T08:24:13
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.28s           2026-04-13T08:24:13
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.09s           2026-04-13T08:24:13
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.13s           2026-04-13T08:24:13
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:24:14
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:24:13
+================================================================================
+[2026-04-13T08:25:12.680+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.16s           2026-04-13T08:24:44
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.30s           2026-04-13T08:24:44
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.16s           2026-04-13T08:24:44
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:24:44
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.12s           2026-04-13T08:24:44
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:24:44
+================================================================================
+[2026-04-13T08:25:43.272+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:25:15
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.35s           2026-04-13T08:25:15
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.12s           2026-04-13T08:25:15
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.17s           2026-04-13T08:25:14
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.11s           2026-04-13T08:25:15
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:25:14
+================================================================================
+[2026-04-13T08:26:13.817+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.10s           2026-04-13T08:25:45
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.33s           2026-04-13T08:25:45
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:25:45
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.15s           2026-04-13T08:25:45
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:25:45
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:25:45
+================================================================================
+[2026-04-13T08:26:44.323+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.10s           2026-04-13T08:26:16
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.28s           2026-04-13T08:26:16
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:26:16
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:26:15
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:26:16
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:26:16
+================================================================================
+[2026-04-13T08:27:14.915+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.10s           2026-04-13T08:26:46
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.45s           2026-04-13T08:26:46
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:26:46
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.13s           2026-04-13T08:26:46
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:26:46
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:26:46
+================================================================================
+[2026-04-13T08:27:26.502+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-13T08:27:26.504+0000] {manager.py:741} INFO - There are 6 files in /opt/airflow/dags
+[2026-04-13T08:27:45.578+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.10s           2026-04-13T08:27:17
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.54s           2026-04-13T08:27:17
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:27:17
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.16s           2026-04-13T08:27:17
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.07s           2026-04-13T08:27:17
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.15s           2026-04-13T08:27:17
+================================================================================
+[2026-04-13T08:28:16.160+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.10s           2026-04-13T08:27:47
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.46s           2026-04-13T08:27:48
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.11s           2026-04-13T08:27:48
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:27:47
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.07s           2026-04-13T08:27:48
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:27:47
+================================================================================
+[2026-04-13T08:28:46.786+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.09s           2026-04-13T08:28:18
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.51s           2026-04-13T08:28:18
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:28:18
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:28:18
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.07s           2026-04-13T08:28:18
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.14s           2026-04-13T08:28:18
+================================================================================
+[2026-04-13T08:29:17.344+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.10s           2026-04-13T08:28:49
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.45s           2026-04-13T08:28:49
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.09s           2026-04-13T08:28:49
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:28:48
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.10s           2026-04-13T08:28:49
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:28:49
+================================================================================
+[2026-04-13T08:29:47.926+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:29:19
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.45s           2026-04-13T08:29:19
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:29:19
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:29:19
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:29:19
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.12s           2026-04-13T08:29:19
+================================================================================
+[2026-04-13T08:30:18.567+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.13s           2026-04-13T08:29:50
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.51s           2026-04-13T08:29:50
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.09s           2026-04-13T08:29:50
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.17s           2026-04-13T08:29:50
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.07s           2026-04-13T08:29:50
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:29:50
+================================================================================
+[2026-04-13T08:30:49.148+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:30:20
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.46s           2026-04-13T08:30:21
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.11s           2026-04-13T08:30:21
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.13s           2026-04-13T08:30:20
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.07s           2026-04-13T08:30:21
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:30:20
+================================================================================
+[2026-04-13T08:31:19.832+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.18s           2026-04-13T08:30:51
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.49s           2026-04-13T08:30:51
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.12s           2026-04-13T08:30:51
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:30:51
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.14s           2026-04-13T08:30:51
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.12s           2026-04-13T08:30:51
+================================================================================
+[2026-04-13T08:31:50.570+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.12s           2026-04-13T08:31:22
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.55s           2026-04-13T08:31:22
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:31:22
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.18s           2026-04-13T08:31:22
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:31:22
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.19s           2026-04-13T08:31:22
+================================================================================
+[2026-04-13T08:32:21.242+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.13s           2026-04-13T08:31:53
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.56s           2026-04-13T08:31:53
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:31:53
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.19s           2026-04-13T08:31:52
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.07s           2026-04-13T08:31:53
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:31:52
+================================================================================
+[2026-04-13T08:32:26.852+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-13T08:32:26.855+0000] {manager.py:741} INFO - There are 6 files in /opt/airflow/dags
+[2026-04-13T08:32:51.954+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:32:23
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.58s           2026-04-13T08:32:23
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.12s           2026-04-13T08:32:23
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.17s           2026-04-13T08:32:23
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:32:23
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.13s           2026-04-13T08:32:23
+================================================================================
+[2026-04-13T08:33:22.565+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.14s           2026-04-13T08:32:54
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.50s           2026-04-13T08:32:54
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:32:54
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:32:54
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.07s           2026-04-13T08:32:54
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:32:54
+================================================================================
+[2026-04-13T08:33:52.582+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.24s           2026-04-13T08:33:25
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.66s           2026-04-13T08:33:25
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.18s           2026-04-13T08:33:25
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.20s           2026-04-13T08:33:24
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.07s           2026-04-13T08:33:25
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.21s           2026-04-13T08:33:25
+================================================================================
+[2026-04-13T08:34:23.357+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.14s           2026-04-13T08:33:56
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.53s           2026-04-13T08:33:56
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.15s           2026-04-13T08:33:56
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.26s           2026-04-13T08:33:55
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.11s           2026-04-13T08:33:56
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.19s           2026-04-13T08:33:56
+================================================================================
+[2026-04-13T08:34:53.980+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.10s           2026-04-13T08:34:26
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.49s           2026-04-13T08:34:26
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:34:26
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.17s           2026-04-13T08:34:26
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.07s           2026-04-13T08:34:26
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:34:26
+================================================================================
+[2026-04-13T08:35:24.615+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:34:57
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.48s           2026-04-13T08:34:57
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.15s           2026-04-13T08:34:57
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:34:57
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:34:57
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:34:57
+================================================================================
+[2026-04-13T08:35:55.333+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.12s           2026-04-13T08:35:28
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.56s           2026-04-13T08:35:28
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.17s           2026-04-13T08:35:28
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.14s           2026-04-13T08:35:27
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:35:28
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:35:27
+================================================================================
+[2026-04-13T08:36:25.921+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:35:58
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.47s           2026-04-13T08:35:58
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:35:58
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:35:58
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.07s           2026-04-13T08:35:58
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.12s           2026-04-13T08:35:58
+================================================================================
+[2026-04-13T08:36:56.602+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.15s           2026-04-13T08:36:29
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.54s           2026-04-13T08:36:29
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.12s           2026-04-13T08:36:29
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.16s           2026-04-13T08:36:29
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:36:29
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:36:29
+================================================================================
+[2026-04-13T08:37:27.394+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-13T08:37:27.396+0000] {manager.py:741} INFO - There are 6 files in /opt/airflow/dags
+[2026-04-13T08:37:27.404+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.12s           2026-04-13T08:37:00
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.58s           2026-04-13T08:37:00
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:37:00
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.28s           2026-04-13T08:36:59
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.10s           2026-04-13T08:37:00
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.16s           2026-04-13T08:37:00
+================================================================================
+[2026-04-13T08:37:58.053+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.10s           2026-04-13T08:37:30
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.48s           2026-04-13T08:37:30
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.13s           2026-04-13T08:37:30
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.14s           2026-04-13T08:37:30
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.10s           2026-04-13T08:37:31
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.12s           2026-04-13T08:37:30
+================================================================================
+[2026-04-13T08:38:28.828+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:38:01
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.54s           2026-04-13T08:38:01
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.26s           2026-04-13T08:38:01
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.17s           2026-04-13T08:38:01
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.11s           2026-04-13T08:38:01
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.12s           2026-04-13T08:38:01
+================================================================================
+[2026-04-13T08:38:59.502+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:38:32
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.56s           2026-04-13T08:38:32
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:38:32
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.15s           2026-04-13T08:38:32
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.23s           2026-04-13T08:38:32
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.12s           2026-04-13T08:38:32
+================================================================================
+[2026-04-13T08:39:30.239+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:39:03
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.43s           2026-04-13T08:39:02
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.07s           2026-04-13T08:39:03
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.16s           2026-04-13T08:39:02
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.19s           2026-04-13T08:39:03
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:39:03
+================================================================================
+[2026-04-13T08:40:01.056+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:39:33
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.48s           2026-04-13T08:39:33
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.12s           2026-04-13T08:39:33
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.29s           2026-04-13T08:39:33
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:39:34
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.08s           2026-04-13T08:39:33
+================================================================================
+[2026-04-13T08:40:31.960+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.20s           2026-04-13T08:40:04
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.33s           2026-04-13T08:40:04
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.27s           2026-04-13T08:40:04
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.15s           2026-04-13T08:40:04
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.28s           2026-04-13T08:40:04
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.15s           2026-04-13T08:40:04
+================================================================================
+[2026-04-13T08:41:02.608+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:40:35
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.42s           2026-04-13T08:40:35
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:40:35
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.16s           2026-04-13T08:40:35
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:40:35
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:40:35
+================================================================================
+[2026-04-13T08:41:33.403+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.16s           2026-04-13T08:41:06
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.51s           2026-04-13T08:41:06
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.20s           2026-04-13T08:41:06
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.18s           2026-04-13T08:41:05
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.15s           2026-04-13T08:41:06
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.13s           2026-04-13T08:41:05
+================================================================================
+[2026-04-13T08:42:03.985+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.09s           2026-04-13T08:41:36
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.37s           2026-04-13T08:41:36
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.09s           2026-04-13T08:41:36
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.17s           2026-04-13T08:41:36
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:41:36
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:41:36
+================================================================================
+[2026-04-13T08:42:27.549+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-13T08:42:27.551+0000] {manager.py:741} INFO - There are 6 files in /opt/airflow/dags
+[2026-04-13T08:42:34.585+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.13s           2026-04-13T08:42:07
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.37s           2026-04-13T08:42:07
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:42:07
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.14s           2026-04-13T08:42:07
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:42:07
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:42:07
+================================================================================
+[2026-04-13T08:43:05.213+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.09s           2026-04-13T08:42:38
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.31s           2026-04-13T08:42:37
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:42:38
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.17s           2026-04-13T08:42:37
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.10s           2026-04-13T08:42:38
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.14s           2026-04-13T08:42:37
+================================================================================
+[2026-04-13T08:43:36.148+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.16s           2026-04-13T08:43:08
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.59s           2026-04-13T08:43:08
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.21s           2026-04-13T08:43:09
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.30s           2026-04-13T08:43:08
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.15s           2026-04-13T08:43:09
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.20s           2026-04-13T08:43:08
+================================================================================
+[2026-04-13T08:44:06.734+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.13s           2026-04-13T08:43:39
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.44s           2026-04-13T08:43:39
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.18s           2026-04-13T08:43:39
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:43:39
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.17s           2026-04-13T08:43:39
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.18s           2026-04-13T08:43:39
+================================================================================
+[2026-04-13T08:44:36.742+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.25s           2026-04-13T08:44:10
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.61s           2026-04-13T08:44:10
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.16s           2026-04-13T08:44:10
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.28s           2026-04-13T08:44:10
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.10s           2026-04-13T08:44:10
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.26s           2026-04-13T08:44:10
+================================================================================
+[2026-04-13T08:45:06.768+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.14s           2026-04-13T08:44:41
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.78s           2026-04-13T08:44:41
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.15s           2026-04-13T08:44:41
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.23s           2026-04-13T08:44:40
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.21s           2026-04-13T08:44:41
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.28s           2026-04-13T08:44:41
+================================================================================
+[2026-04-13T08:45:37.199+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.12s           2026-04-13T08:45:12
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.33s           2026-04-13T08:45:11
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.11s           2026-04-13T08:45:12
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.13s           2026-04-13T08:45:11
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:45:12
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:45:11
+================================================================================
+[2026-04-13T08:46:07.767+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:45:42
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.31s           2026-04-13T08:45:42
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.12s           2026-04-13T08:45:42
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:45:42
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.11s           2026-04-13T08:45:42
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:45:42
+================================================================================
+[2026-04-13T08:46:38.453+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.14s           2026-04-13T08:46:13
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.42s           2026-04-13T08:46:13
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.14s           2026-04-13T08:46:13
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.17s           2026-04-13T08:46:12
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.12s           2026-04-13T08:46:13
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:46:13
+================================================================================
+[2026-04-13T08:47:08.983+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:46:43
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.29s           2026-04-13T08:46:43
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.11s           2026-04-13T08:46:43
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.13s           2026-04-13T08:46:43
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:46:43
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:46:43
+================================================================================
+[2026-04-13T08:47:27.593+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-13T08:47:27.594+0000] {manager.py:741} INFO - There are 6 files in /opt/airflow/dags
+[2026-04-13T08:47:39.588+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.14s           2026-04-13T08:47:14
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.30s           2026-04-13T08:47:14
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.16s           2026-04-13T08:47:14
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.16s           2026-04-13T08:47:14
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:47:14
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.14s           2026-04-13T08:47:14
+================================================================================
+[2026-04-13T08:48:10.178+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.10s           2026-04-13T08:47:44
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.33s           2026-04-13T08:47:44
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.13s           2026-04-13T08:47:45
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:47:44
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.14s           2026-04-13T08:47:45
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:47:44
+================================================================================
+[2026-04-13T08:48:40.774+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.12s           2026-04-13T08:48:15
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.36s           2026-04-13T08:48:15
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.11s           2026-04-13T08:48:15
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.17s           2026-04-13T08:48:15
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:48:15
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:48:15
+================================================================================
+[2026-04-13T08:49:11.316+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:48:46
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.31s           2026-04-13T08:48:46
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.11s           2026-04-13T08:48:46
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:48:45
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:48:46
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:48:46
+================================================================================
+[2026-04-13T08:49:41.852+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.10s           2026-04-13T08:49:16
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.30s           2026-04-13T08:49:16
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:49:16
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.13s           2026-04-13T08:49:16
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:49:16
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.12s           2026-04-13T08:49:16
+================================================================================
+[2026-04-13T08:50:12.447+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.15s           2026-04-13T08:49:47
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.35s           2026-04-13T08:49:47
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.12s           2026-04-13T08:49:47
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.13s           2026-04-13T08:49:47
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.19s           2026-04-13T08:49:47
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.13s           2026-04-13T08:49:47
+================================================================================
+[2026-04-13T08:50:43.068+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.08s           2026-04-13T08:50:17
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.35s           2026-04-13T08:50:17
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.07s           2026-04-13T08:50:17
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:50:17
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.07s           2026-04-13T08:50:18
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.20s           2026-04-13T08:50:17
+================================================================================
+[2026-04-13T08:51:13.607+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:50:48
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.30s           2026-04-13T08:50:48
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.11s           2026-04-13T08:50:48
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:50:48
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:50:48
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:50:48
+================================================================================
+[2026-04-13T08:51:44.145+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.12s           2026-04-13T08:51:18
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.29s           2026-04-13T08:51:18
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.12s           2026-04-13T08:51:19
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.13s           2026-04-13T08:51:18
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.10s           2026-04-13T08:51:19
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:51:18
+================================================================================
+[2026-04-13T08:52:14.766+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:51:49
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.38s           2026-04-13T08:51:49
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.11s           2026-04-13T08:51:49
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.20s           2026-04-13T08:51:49
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:51:49
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:51:49
+================================================================================
+[2026-04-13T08:52:28.234+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-13T08:52:28.236+0000] {manager.py:741} INFO - There are 6 files in /opt/airflow/dags
+[2026-04-13T08:52:45.304+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:52:20
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.30s           2026-04-13T08:52:20
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.11s           2026-04-13T08:52:20
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:52:19
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.10s           2026-04-13T08:52:20
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:52:20
+================================================================================
+[2026-04-13T08:53:15.867+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:52:50
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.32s           2026-04-13T08:52:50
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.13s           2026-04-13T08:52:50
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:52:50
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.11s           2026-04-13T08:52:50
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.12s           2026-04-13T08:52:50
+================================================================================
+[2026-04-13T08:53:46.498+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.09s           2026-04-13T08:53:21
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.33s           2026-04-13T08:53:21
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.11s           2026-04-13T08:53:21
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.14s           2026-04-13T08:53:21
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.14s           2026-04-13T08:53:21
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.14s           2026-04-13T08:53:21
+================================================================================
+[2026-04-13T08:54:17.047+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.12s           2026-04-13T08:53:51
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.30s           2026-04-13T08:53:51
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.11s           2026-04-13T08:53:51
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:53:51
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.10s           2026-04-13T08:53:52
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:53:51
+================================================================================
+[2026-04-13T08:54:47.665+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.10s           2026-04-13T08:54:22
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.39s           2026-04-13T08:54:22
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.11s           2026-04-13T08:54:22
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.20s           2026-04-13T08:54:22
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:54:22
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:54:22
+================================================================================
+[2026-04-13T08:55:18.654+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.12s           2026-04-13T08:54:53
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.57s           2026-04-13T08:54:53
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.21s           2026-04-13T08:54:53
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.27s           2026-04-13T08:54:52
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.17s           2026-04-13T08:54:53
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.26s           2026-04-13T08:54:53
+================================================================================
+[2026-04-13T08:55:49.460+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.23s           2026-04-13T08:55:24
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.54s           2026-04-13T08:55:24
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.14s           2026-04-13T08:55:24
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.19s           2026-04-13T08:55:23
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.15s           2026-04-13T08:55:24
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.14s           2026-04-13T08:55:24
+================================================================================
+[2026-04-13T08:56:20.084+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.16s           2026-04-13T08:55:54
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.35s           2026-04-13T08:55:54
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.15s           2026-04-13T08:55:54
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:55:54
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.11s           2026-04-13T08:55:55
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.17s           2026-04-13T08:55:54
+================================================================================
+[2026-04-13T08:56:50.603+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:56:25
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.30s           2026-04-13T08:56:25
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:56:25
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:56:25
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:56:25
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:56:25
+================================================================================
+[2026-04-13T08:57:21.174+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:56:55
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.31s           2026-04-13T08:56:55
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.11s           2026-04-13T08:56:56
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:56:55
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.10s           2026-04-13T08:56:56
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:56:55
+================================================================================
+[2026-04-13T08:57:28.615+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-13T08:57:28.617+0000] {manager.py:741} INFO - There are 6 files in /opt/airflow/dags
+[2026-04-13T08:57:51.711+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.12s           2026-04-13T08:57:26
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.30s           2026-04-13T08:57:26
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.11s           2026-04-13T08:57:26
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:57:26
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:57:26
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:57:26
+================================================================================
+[2026-04-13T08:58:22.305+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.14s           2026-04-13T08:57:57
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.35s           2026-04-13T08:57:57
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.12s           2026-04-13T08:57:57
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:57:56
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:57:57
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.12s           2026-04-13T08:57:56
+================================================================================
+[2026-04-13T08:58:52.838+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.10s           2026-04-13T08:58:27
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.30s           2026-04-13T08:58:27
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.11s           2026-04-13T08:58:27
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.13s           2026-04-13T08:58:27
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.10s           2026-04-13T08:58:27
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.10s           2026-04-13T08:58:27
+================================================================================
+[2026-04-13T08:59:23.376+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T08:58:58
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.31s           2026-04-13T08:58:58
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T08:58:58
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.13s           2026-04-13T08:58:58
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T08:58:58
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T08:58:58
+================================================================================
+[2026-04-13T08:59:53.969+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.14s           2026-04-13T08:59:28
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.34s           2026-04-13T08:59:28
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.12s           2026-04-13T08:59:28
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T08:59:28
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.10s           2026-04-13T08:59:28
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.12s           2026-04-13T08:59:28
+================================================================================
+[2026-04-13T09:00:24.495+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.10s           2026-04-13T08:59:59
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.29s           2026-04-13T08:59:59
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.11s           2026-04-13T08:59:59
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.13s           2026-04-13T08:59:59
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T08:59:59
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.12s           2026-04-13T08:59:59
+================================================================================
+[2026-04-13T09:00:55.130+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.16s           2026-04-13T09:00:29
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.38s           2026-04-13T09:00:29
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.13s           2026-04-13T09:00:30
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.13s           2026-04-13T09:00:29
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T09:00:30
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.12s           2026-04-13T09:00:29
+================================================================================
+[2026-04-13T09:01:25.714+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.15s           2026-04-13T09:01:00
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.31s           2026-04-13T09:01:00
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.14s           2026-04-13T09:01:00
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.15s           2026-04-13T09:01:00
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T09:01:00
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T09:01:00
+================================================================================
+[2026-04-13T09:01:56.302+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.12s           2026-04-13T09:01:31
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.35s           2026-04-13T09:01:31
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T09:01:31
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.16s           2026-04-13T09:01:30
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.09s           2026-04-13T09:01:31
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.12s           2026-04-13T09:01:31
+================================================================================
+[2026-04-13T09:02:26.855+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.12s           2026-04-13T09:02:01
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.32s           2026-04-13T09:02:01
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.11s           2026-04-13T09:02:01
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.13s           2026-04-13T09:02:01
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.10s           2026-04-13T09:02:01
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T09:02:01
+================================================================================
+[2026-04-13T09:02:28.862+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2026-04-13T09:02:28.865+0000] {manager.py:741} INFO - There are 6 files in /opt/airflow/dags
+[2026-04-13T09:02:57.398+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T09:02:32
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.30s           2026-04-13T09:02:32
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.10s           2026-04-13T09:02:32
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T09:02:32
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T09:02:32
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T09:02:32
+================================================================================
+[2026-04-13T09:03:28.030+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.17s           2026-04-13T09:03:02
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.31s           2026-04-13T09:03:02
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.19s           2026-04-13T09:03:02
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.12s           2026-04-13T09:03:02
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.13s           2026-04-13T09:03:02
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.12s           2026-04-13T09:03:02
+================================================================================
+[2026-04-13T09:03:58.602+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T09:03:33
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.33s           2026-04-13T09:03:33
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.12s           2026-04-13T09:03:33
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.13s           2026-04-13T09:03:33
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.11s           2026-04-13T09:03:33
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T09:03:33
+================================================================================
+[2026-04-13T09:04:29.283+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.10s           2026-04-13T09:04:04
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.55s           2026-04-13T09:04:04
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.12s           2026-04-13T09:04:04
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.19s           2026-04-13T09:04:03
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T09:04:04
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T09:04:03
+================================================================================
+[2026-04-13T09:04:59.990+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.20s           2026-04-13T09:04:34
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.57s           2026-04-13T09:04:34
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.13s           2026-04-13T09:04:34
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.13s           2026-04-13T09:04:34
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T09:04:34
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T09:04:34
+================================================================================
+[2026-04-13T09:05:30.641+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.12s           2026-04-13T09:05:05
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.52s           2026-04-13T09:05:05
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.12s           2026-04-13T09:05:05
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.14s           2026-04-13T09:05:05
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.08s           2026-04-13T09:05:05
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.11s           2026-04-13T09:05:05
+================================================================================
+[2026-04-13T09:06:00.675+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.21s           2026-04-13T09:05:36
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.86s           2026-04-13T09:05:36
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.19s           2026-04-13T09:05:36
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.24s           2026-04-13T09:05:35
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.26s           2026-04-13T09:05:36
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.23s           2026-04-13T09:05:36
+================================================================================
+[2026-04-13T09:06:31.350+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_helm_monitoring.py                               1           0  0.11s           2026-04-13T09:06:07
+/opt/airflow/dags/k8s_pod_operator_dag.py                              1           0  0.54s           2026-04-13T09:06:07
+/opt/airflow/dags/dag_executor_comparison.py                           1           0  0.12s           2026-04-13T09:06:07
+/opt/airflow/dags/k8s_etl_pipeline_dag.py                              1           0  0.17s           2026-04-13T09:06:06
+/opt/airflow/dags/dag_resource_management.py                           1           0  0.12s           2026-04-13T09:06:07
+/opt/airflow/dags/hello_kubernetes_dag.py                              1           0  0.12s           2026-04-13T09:06:07
+================================================================================

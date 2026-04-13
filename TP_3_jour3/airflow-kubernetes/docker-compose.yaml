@@ -83,7 +83,7 @@ services:
       <<: *airflow-common-env
       _AIRFLOW_DB_MIGRATE: 'true'
       _AIRFLOW_WWW_USER_CREATE: 'true'
-    user: "0:0"
+    user: "${AIRFLOW_UID:-50000}:0"
 
   # ─────────────────────────────────────────
   # Airflow Webserver (UI) — port 8080
