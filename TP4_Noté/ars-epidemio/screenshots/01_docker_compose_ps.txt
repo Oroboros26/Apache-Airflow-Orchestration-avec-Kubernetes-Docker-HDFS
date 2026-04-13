@@ -1,0 +1,8 @@
+NAME                               IMAGE                  COMMAND                  SERVICE             CREATED          STATUS                        PORTS
+ars-epidemio-airflow-scheduler-1   apache/airflow:2.8.0   "/usr/bin/dumb-init …"   airflow-scheduler   21 minutes ago   Up About a minute (healthy)   8080/tcp
+ars-epidemio-airflow-webserver-1   apache/airflow:2.8.0   "/usr/bin/dumb-init …"   airflow-webserver   21 minutes ago   Up 19 minutes (healthy)       0.0.0.0:8080->8080/tcp, [::]:8080->8080/tcp
+ars-epidemio-airflow-worker-1      apache/airflow:2.8.0   "/usr/bin/dumb-init …"   airflow-worker      21 minutes ago   Up About a minute (healthy)   8080/tcp
+ars-epidemio-flower-1              apache/airflow:2.8.0   "/usr/bin/dumb-init …"   flower              21 minutes ago   Up 20 minutes (healthy)       0.0.0.0:5555->5555/tcp, [::]:5555->5555/tcp, 8080/tcp
+ars-epidemio-postgres-1            postgres:13            "docker-entrypoint.s…"   postgres            21 minutes ago   Up 21 minutes (healthy)       5432/tcp
+ars-epidemio-postgres-ars-1        postgres:13            "docker-entrypoint.s…"   postgres-ars        21 minutes ago   Up 21 minutes (healthy)       0.0.0.0:5433->5432/tcp, [::]:5433->5432/tcp
+ars-epidemio-redis-1               redis:latest           "docker-entrypoint.s…"   redis               21 minutes ago   Up 21 minutes (healthy)       6379/tcp

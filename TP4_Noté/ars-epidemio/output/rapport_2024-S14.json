@@ -1,0 +1,41 @@
+{
+  "semaine": "2024-S14",
+  "region": "Occitanie",
+  "code_region": "76",
+  "date_generation": "2026-04-13T11:48:14.474651",
+  "situation_globale": "ALERTE",
+  "nb_departements_surveilles": 13,
+  "nb_syndromes_urgence": 0,
+  "nb_syndromes_alerte": 1,
+  "indicateurs": [
+    {
+      "syndrome": "GRIPPE",
+      "libelle": "Grippe",
+      "valeur_ias": 0.008,
+      "z_score": -0.8135,
+      "r0_estime": null,
+      "statut": "NORMAL",
+      "statut_ias": "NORMAL",
+      "statut_zscore": "NORMAL",
+      "nb_saisons_reference": 5
+    },
+    {
+      "syndrome": "GEA",
+      "libelle": "Gastro-entérite aiguë",
+      "valeur_ias": 100.406,
+      "z_score": 0.2135,
+      "r0_estime": null,
+      "statut": "ALERTE",
+      "statut_ias": "ALERTE",
+      "statut_zscore": "NORMAL",
+      "nb_saisons_reference": 5
+    }
+  ],
+  "recommandations": [
+    "Surveillance renforcée des indicateurs pour les 48h suivantes",
+    "Envoi d'un bulletin de surveillance aux partenaires de santé",
+    "Vérification des capacités d'accueil des services d'urgences"
+  ],
+  "genere_par": "ars_epidemio_dag v1.0",
+  "pipeline_version": "2.8"
+}

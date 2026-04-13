@@ -1,0 +1,20 @@
+=== DAG Overview ===
+dag_id           | filepath            | owner         | paused
+=================+=====================+===============+=======
+ars_epidemio_dag | ars_epidemio_dag.py | ars-occitanie | False 
+                                                               
+
+=== DAG Tasks ===
+<Task(PostgresOperator): init_base_donnees>
+    <Task(PythonOperator): collecte.collecter_donnees_sursaud>
+        <Task(PythonOperator): persistance_brute.archiver_local>
+            <Task(PythonOperator): persistance_brute.verifier_archive>
+                <Task(PythonOperator): traitement.calculer_indicateurs_epidemiques>
+                    <Task(PythonOperator): persistance_operationnelle.inserer_donnees_postgres>
+                        <Task(BranchPythonOperator): evaluer_situation_epidemique>
+                            <Task(PythonOperator): declencher_alerte_ars>
+                                <Task(PythonOperator): generer_rapport_hebdomadaire>
+                            <Task(PythonOperator): confirmer_situation_normale>
+                                <Task(PythonOperator): generer_rapport_hebdomadaire>
+                            <Task(PythonOperator): envoyer_bulletin_surveillance>
+                                <Task(PythonOperator): generer_rapport_hebdomadaire>

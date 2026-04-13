@@ -1,0 +1,55 @@
+=== Tables ===
+                  List of relations
+ Schema |          Name           | Type  |  Owner   
+--------+-------------------------+-------+----------
+ public | departements            | table | postgres
+ public | donnees_hebdomadaires   | table | postgres
+ public | indicateurs_epidemiques | table | postgres
+ public | rapports_ars            | table | postgres
+ public | syndromes               | table | postgres
+(5 rows)
+
+=== syndromes ===
+ id |   code   |        libelle        |                 description                 | duree_infectieuse_jours | actif |          created_at           |          updated_at           
+----+----------+-----------------------+---------------------------------------------+-------------------------+-------+-------------------------------+-------------------------------
+  1 | GRIPPE   | Grippe                | Syndrome grippal confirmé ou probable       |                       5 | t     | 2026-04-13 11:35:52.716285+00 | 2026-04-13 11:35:52.716285+00
+  2 | GEA      | Gastro-entérite aiguë | Diarrhées et/ou vomissements aigus          |                       3 | t     | 2026-04-13 11:35:52.716285+00 | 2026-04-13 11:35:52.716285+00
+  3 | SG       | Syndrome grippal      | Fièvre + toux ou myalgies sans confirmation |                       5 | t     | 2026-04-13 11:35:52.716285+00 | 2026-04-13 11:35:52.716285+00
+  4 | BRONCHIO | Bronchiolite          | Bronchiolite du nourrisson (< 2 ans)        |                       7 | t     | 2026-04-13 11:35:52.716285+00 | 2026-04-13 11:35:52.716285+00
+  5 | COVID19  | Covid-19              | Syndrome Covid-19 confirmé ou probable      |                       7 | t     | 2026-04-13 11:35:52.716285+00 | 2026-04-13 11:35:52.716285+00
+(5 rows)
+
+=== departements (5) ===
+ id | code_dept |      nom      | code_region | nom_region | population | superficie_km2 |  chef_lieu  |          created_at           |          updated_at           
+----+-----------+---------------+-------------+------------+------------+----------------+-------------+-------------------------------+-------------------------------
+  1 | 09        | Ariège        | 76          | Occitanie  |     153153 |                | Foix        | 2026-04-13 11:35:52.716285+00 | 2026-04-13 11:35:52.716285+00
+  2 | 11        | Aude          | 76          | Occitanie  |     375438 |                | Carcassonne | 2026-04-13 11:35:52.716285+00 | 2026-04-13 11:35:52.716285+00
+  3 | 12        | Aveyron       | 76          | Occitanie  |     279594 |                | Rodez       | 2026-04-13 11:35:52.716285+00 | 2026-04-13 11:35:52.716285+00
+  4 | 30        | Gard          | 76          | Occitanie  |     750294 |                | Nîmes       | 2026-04-13 11:35:52.716285+00 | 2026-04-13 11:35:52.716285+00
+  5 | 31        | Haute-Garonne | 76          | Occitanie  |    1432680 |                | Toulouse    | 2026-04-13 11:35:52.716285+00 | 2026-04-13 11:35:52.716285+00
+(5 rows)
+
+=== donnees_hebdomadaires (5) ===
+ id | semaine  | syndrome | valeur_ias | seuil_min_saison | seuil_max_saison | nb_jours_donnees | annee | numero_semaine |          created_at           |          updated_at           
+----+----------+----------+------------+------------------+------------------+------------------+-------+----------------+-------------------------------+-------------------------------
+  1 | 2024-S14 | GRIPPE   |      0.008 |            2.362 |           74.283 |                7 |  2024 |             14 | 2026-04-13 11:48:10.836734+00 | 2026-04-13 11:48:10.836734+00
+  2 | 2024-S14 | GEA      |    100.406 |           65.629 |          119.457 |                7 |  2024 |             14 | 2026-04-13 11:48:10.836734+00 | 2026-04-13 11:48:10.836734+00
+(2 rows)
+
+=== indicateurs_epidemiques (5) ===
+ id | semaine  | syndrome | valeur_ias | z_score | r0_estime | nb_saisons_reference | statut | statut_ias | statut_zscore |                  commentaire                   |          calcule_le           |          created_at           |          updated_at           
+----+----------+----------+------------+---------+-----------+----------------------+--------+------------+---------------+------------------------------------------------+-------------------------------+-------------------------------+-------------------------------
+  1 | 2024-S14 | GRIPPE   |      0.008 | -0.8135 |           |                    5 | NORMAL | NORMAL     | NORMAL        | IAS=0.008, z=-0.8135, seuils=[2.362,74.283]    | 2026-04-13 11:48:10.836734+00 | 2026-04-13 11:48:10.836734+00 | 2026-04-13 11:48:10.836734+00
+  2 | 2024-S14 | GEA      |    100.406 |  0.2135 |           |                    5 | ALERTE | ALERTE     | NORMAL        | IAS=100.406, z=0.2135, seuils=[65.629,119.457] | 2026-04-13 11:48:10.836734+00 | 2026-04-13 11:48:10.836734+00 | 2026-04-13 11:48:10.836734+00
+(2 rows)
+
+=== rapports_ars (5) ===
+ semaine  | situation_globale | nb_depts_alerte | nb_depts_urgence 
+----------+-------------------+-----------------+------------------
+ 2025-S02 | NORMAL            |               0 |                0
+ 2025-S03 | NORMAL            |               0 |                0
+ 2025-S04 | NORMAL            |               0 |                0
+ 2025-S05 | NORMAL            |               0 |                0
+ 2025-S06 | NORMAL            |               0 |                0
+(5 rows)
+

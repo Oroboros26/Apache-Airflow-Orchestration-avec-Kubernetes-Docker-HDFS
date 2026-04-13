@@ -1,0 +1,15 @@
+=== DAG Run Success - ars_epidemio_dag ===
+dag_id           | execution_date            | task_id                                             | state   | start_date                       | end_date                        
+=================+===========================+=====================================================+=========+==================================+=================================
+ars_epidemio_dag | 2024-04-01T00:00:00+00:00 | init_base_donnees                                   | success | 2026-04-13T11:48:04.909329+00:00 | 2026-04-13T11:48:05.068885+00:00
+ars_epidemio_dag | 2024-04-01T00:00:00+00:00 | collecte.collecter_donnees_sursaud                  | success | 2026-04-13T11:48:05.566673+00:00 | 2026-04-13T11:48:06.354831+00:00
+ars_epidemio_dag | 2024-04-01T00:00:00+00:00 | persistance_operationnelle.inserer_donnees_postgres | success | 2026-04-13T11:48:10.616185+00:00 | 2026-04-13T11:48:10.857567+00:00
+ars_epidemio_dag | 2024-04-01T00:00:00+00:00 | declencher_alerte_ars                               | skipped | 2026-04-13T11:48:11.963575+00:00 | 2026-04-13T11:48:11.963575+00:00
+ars_epidemio_dag | 2024-04-01T00:00:00+00:00 | evaluer_situation_epidemique                        | success | 2026-04-13T11:48:11.782743+00:00 | 2026-04-13T11:48:11.990110+00:00
+ars_epidemio_dag | 2024-04-01T00:00:00+00:00 | envoyer_bulletin_surveillance                       | success | 2026-04-13T11:48:12.949296+00:00 | 2026-04-13T11:48:13.148592+00:00
+ars_epidemio_dag | 2024-04-01T00:00:00+00:00 | persistance_brute.archiver_local                    | success | 2026-04-13T11:48:07.731340+00:00 | 2026-04-13T11:48:07.961850+00:00
+ars_epidemio_dag | 2024-04-01T00:00:00+00:00 | persistance_brute.verifier_archive                  | success | 2026-04-13T11:48:08.874319+00:00 | 2026-04-13T11:48:09.008821+00:00
+ars_epidemio_dag | 2024-04-01T00:00:00+00:00 | traitement.calculer_indicateurs_epidemiques         | success | 2026-04-13T11:48:09.999492+00:00 | 2026-04-13T11:48:10.133542+00:00
+ars_epidemio_dag | 2024-04-01T00:00:00+00:00 | confirmer_situation_normale                         | skipped | 2026-04-13T11:48:11.963575+00:00 | 2026-04-13T11:48:11.963575+00:00
+ars_epidemio_dag | 2024-04-01T00:00:00+00:00 | generer_rapport_hebdomadaire                        | success | 2026-04-13T11:48:14.264076+00:00 | 2026-04-13T11:48:14.495649+00:00
+                                                                                                                                                                                  
