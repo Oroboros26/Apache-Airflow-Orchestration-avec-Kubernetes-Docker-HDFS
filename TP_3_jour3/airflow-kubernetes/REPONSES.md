@@ -229,7 +229,14 @@ Ressources 10x :
 
 ## Captures d'écran
 
-*(À compléter après exécution du pipeline)*
+<img width="1892" height="813" alt="image" src="https://github.com/user-attachments/assets/f742568b-9c7d-455b-9ac5-1d0d5566259a" />
+
+<img width="1918" height="718" alt="image" src="https://github.com/user-attachments/assets/9f66edfd-52ce-4cad-9e14-f79fb47c897a" />
+
+<img width="1905" height="872" alt="image" src="https://github.com/user-attachments/assets/74559a47-060b-4100-965d-a1ae72f6d582" />
+
+
+
 
 1. `kubectl get nodes` — 3 nœuds Ready
 2. `kubectl get pods -n airflow` — tous Running
