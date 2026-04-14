@@ -1,7 +1,7 @@
 # TP Noté Airflow — Data Platform Santé Publique ARS Occitanie
 
 ## Auteur
-- **Nom** : BOUKERCHE
+- **Nom** : Sahbi
 - **Prénom** : Mohamed
 - **Formation** : Master 2 Data Engineering — IPSSI Montpellier
 - **Date** : 13 Avril 2026
